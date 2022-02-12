@@ -1,0 +1,112 @@
+.content-my-xb {
+  margin-top: var(--space-xg);
+  margin-bottom: var(--space-xg);
+}
+.content-mx-xb {
+  margin-left: var(--space-xg);
+  margin-right: var(--space-xg);
+}
+.content-mt-xb {
+  margin-top: var(--space-xg);
+}
+.content-mb-xb {
+  margin-bottom: var(--space-xg);
+}
+.content-ml-xb {
+  margin-left: var(--space-xg);
+}
+.content-mr-xb {
+  margin-right: var(--space-xg);
+}
+
+.content-my-bg {
+  margin-top: var(--space-bg);
+  margin-bottom: var(--space-bg);
+}
+.content-mx-bg {
+  margin-left: var(--space-bg);
+  margin-right: var(--space-bg);
+}
+.content-mt-bg {
+  margin-top: var(--space-bg);
+}
+.content-mb-bg {
+  margin-bottom: var(--space-bg);
+}
+.content-ml-bg {
+  margin-left: var(--space-bg);
+}
+.content-mr-bg {
+  margin-right: var(--space-bg);
+}
+
+.content-my-md {
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+.content-mx-md {
+  margin-left: var(--space-md);
+  margin-right: var(--space-md);
+}
+.content-mt-md {
+  margin-top: var(--space-md);
+}
+.content-mb-md {
+  margin-bottom: var(--space-md);
+}
+.content-ml-md {
+  margin-left: var(--space-md);
+}
+.content-mr-md {
+  margin-right: var(--space-md);
+}
+
+.content-my-sm {
+  margin-top: var(--space-sm);
+  margin-bottom: var(--space-sm);
+}
+.content-mx-sm {
+  margin-left: var(--space-sm);
+  margin-right: var(--space-sm);
+}
+.content-mt-sm {
+  margin-top: var(--space-sm);
+}
+.content-mb-sm {
+  margin-bottom: var(--space-sm);
+}
+.content-ml-sm {
+  margin-left: var(--space-sm);
+}
+.content-mr-sm {
+  margin-right: var(--space-sm);
+}
+
+.content-my-xm {
+  margin-top: var(--space-xm);
+  margin-bottom: var(--space-xm);
+}
+.content-mx-xm {
+  margin-left: var(--space-xm);
+  margin-right: var(--space-xm);
+}
+.content-mt-xm {
+  margin-top: var(--space-xm);
+}
+.content-mb-xm {
+  margin-bottom: var(--space-xm);
+}
+.content-ml-xm {
+  margin-left: var(--space-xm);
+}
+.content-mr-xm {
+  margin-right: var(--space-xm);
+}
+
+.content-float-rigth {
+  float: right;
+}
+
+.content-font-bold {
+  font-weight: bolder;
+}

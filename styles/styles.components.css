@@ -1,0 +1,252 @@
+/*--------------------------------------------------------------------------------------------------------------------------------------------------
+---| Estructura principal documento
+--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+body {
+  background-color: var(--screen-bg-color);
+}
+
+.wrap-template {
+  width: 98%;
+  display: grid;
+  gap: var(--space-md);
+  grid-template-columns: 250px 1fr 60px;
+  margin: var(--space-md) auto;
+  max-width: var(--maximun-width-document);
+}
+
+.wrap-template-wrap {
+  height: calc(100vh - 2 * var(--space-md));
+  overflow-y: auto;
+  padding: 0px 10px 0px;
+  box-sizing: border-box;
+}
+
+.wrap-template-content {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  min-height: calc(100vh - 2 * var(--space-md));
+}
+
+.wrap-template-menu {
+  background-color: var(--content-bg-color-primary);
+}
+
+.wrap-template-footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--space-md);
+  font-size: var(--text-md);
+  box-sizing: border-box;
+  color: var(--content-color-dark);
+  box-shadow: var(--general-shadow);
+  background-color: var(--content-bg-color-primary);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------
+---| Targeta de presentacion lateral izquierda
+--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.presentation-card {
+  height: calc(100vh - (2 * var(--space-md)));
+  width: 100%;
+  display: grid;
+  grid-template-rows: 200px 1fr 50px;
+  box-shadow: var(--general-shadow);
+  background-color: var(--content-bg-color-secondary);
+}
+
+.presentation-card-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-bottom);
+  background: var(--content-bg-color-primary);
+}
+
+.presentation-card-head-image-content {
+  width: 90px;
+  height: 90px;
+}
+
+.presentation-card-head-image {
+  border-radius: 50%;
+}
+
+.presentation-card-head-name,
+.presentation-card-head-profile {
+  text-align: center;
+  font-size: var(--text-md);
+  color: var(--content-color-dark);
+}
+
+.presentation-card-body {
+  padding: var(--space-md) var(--space-xg) var(--space-sm);
+  font-size: var(--text-md);
+  overflow: auto;
+  color: var(--content-color-light);
+}
+
+.presentation-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-top);
+  background: var(--content-bg-color-primary);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------
+---| Tarjetas de porcentaje horizontales
+--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.percent-skill-target {
+  width: 100%;
+  height: 5px;
+  position: relative;
+  background-color: var(--content-bg-color-tertiary);
+}
+
+.percent-skill-target::after {
+  content: "";
+  height: 5px;
+  position: absolute;
+  background-color: var(--main-app-color);
+}
+
+.percent-skill-html.percent-skill-target::after {
+  width: 95%;
+}
+
+.percent-skill-css.percent-skill-target::after {
+  width: 85%;
+}
+
+.percent-skill-js.percent-skill-target::after {
+  width: 80%;
+}
+
+.percent-skill-php.percent-skill-target::after {
+  width: 80%;
+}
+
+.percent-skill-sql.percent-skill-target::after {
+  width: 80%;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------
+---| Iconos sociales
+--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.wrap-social-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--content-bg-color-secondary);
+}
+
+.wrap-social-icon:hover {
+  background-color: var(--content-bg-color-tertiary);
+}
+
+.social-icon {
+  color: var(--content-color-dark);
+  font-size: var(--text-xg);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------
+---| Separadores de la aplicacion
+--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.simple-separator-sm {
+  width: 100%;
+  height: var(--border-xm);
+  border: none;
+  border-radius: var(--rounded);
+  background-color: var(--content-bg-color-tertiary);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------
+---| Barras de desplazamiento
+--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.hidden-scroll-bar {
+  overflow-y: auto;
+}
+
+.hidden-scroll-bar::-webkit-scrollbar {
+  display: none;
+  width: 0px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------
+---| Botones de la aplicacion
+--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.simple-button {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: var(--text-md);
+  color: var(--content-color-dark);
+  cursor: pointer;
+  border-radius: var(--rounded);
+}
+
+.simple-button:hover {
+  background-color: var(--content-bg-color-tertiary);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------
+---| Cartelera de presentacion
+--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.billboard-presentation {
+  padding: var(--space-bg);
+  text-align: justify;
+  font-size: var(--text-md);
+  box-shadow: var(--general-shadow);
+  color: var(--content-color-dark);
+  background-color: var(--content-bg-color-primary);
+}
+
+.billboard-presentation-title {
+  color: var(--main-app-color);
+}
+.billboard-presentation-name {
+  color: var(--content-color-light);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------
+---| Componentes de servicios
+--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.wrap-components-target {
+  display: grid;
+  gap: var(--space-bg);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.component-target {
+  padding: var(--space-bg);
+  text-align: justify;
+  font-size: var(--text-md);
+  box-shadow: var(--general-shadow);
+  color: var(--content-color-dark);
+  background-color: var(--content-bg-color-secondary);
+}
+
+.component-target {
+}
