@@ -269,17 +269,19 @@ body {
 ---| Componentes de servicios
 --------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+.image-responsive {
+  position: relative;
+  width: 50%;
+  min-height: 20px;
+  margin: auto;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------
+---| Componentes de servicios
+--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 .wrap-components-target {
   display: grid;
   gap: var(--space-xg);
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-}
-
-.component-target {
-  padding: var(--space-bg);
-  text-align: justify;
-  font-size: var(--text-md);
-  box-shadow: var(--general-shadow);
-  color: var(--content-color-dark);
-  background-color: var(--content-bg-color-secondary);
 }
