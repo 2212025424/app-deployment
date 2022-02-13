@@ -1,21 +1,21 @@
 :root {
   --main-app-color: rgb(244, 98, 88);
   --main-app-color-variation: rgb(237, 95, 85);
-  --content-color-dark: rgb(30, 30, 40);
-  --content-color-light: rgb(92, 92, 100);
+  --content-color-dark: rgb(30, 30, 30);
+  --content-color-light: rgb(140, 140, 140);
   --content-bg-color-primary: rgb(255, 255, 255);
   --content-bg-color-secondary: rgb(252, 252, 252);
   --content-bg-color-tertiary: rgb(230, 230, 230);
   --screen-bg-color: rgb(246, 246, 246);
 
-  --general-shadow: 0px 0px 10px -5px var(--content-color-dark);
+  --general-shadow: 0px 0px 10px -7px var(--content-color-dark);
   --shadow-bottom: 0px 2px 10px -7px var(--content-color-dark);
   --shadow-top: 0px -2px 10px -7px var(--content-color-dark);
 
   --maximun-width-document: 1400px;
 
   --text-xg: 18px;
-  --text-bg: 16px;
+  --text-bg: 15px;
   --text-md: 13px;
   --text-sm: 12px;
   --text-xm: 11px;

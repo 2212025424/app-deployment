@@ -15,27 +15,27 @@ export default function DocumentLayout({ children }) {
                 {/* <meta name="google-site-verification" content="..." />*/}
             </Head>
             <div className="wrap-template">
-                <div className="wrap-template-target">
+                <section className="wrap-template-target">
                     <PresentationCard/>
-                </div>
-                <div className="hidden-scroll-bar wrap-template-wrap">
+                </section>
+                <main className="hidden-scroll-bar wrap-template-wrap">
                     <div className="wrap-template-content">
                         <div>
                             {children}
                         </div>
                         <footer className="wrap-template-footer">
                             <div className="wrap-template-copy">
-                                © 2022 Todos los derechos reservados.
+                                <p>© 2022 Todos los derechos reservados.</p>
                             </div>
                             <div className="wrap-template-copy">
-                                Email: josenriquezempo@gmail.com
+                                <p>Email: josenriquezempo@gmail.com</p>
                             </div>
                         </footer>
                     </div>
-                </div>
-                <div className="wrap-template-menu">
+                </main>
+                <section className="wrap-template-menu">
                     Ah
-                </div>
+                </section>
             </div>
         </div>
     )

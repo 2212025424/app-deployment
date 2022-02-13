@@ -110,3 +110,16 @@
 .content-font-bold {
   font-weight: bolder;
 }
+
+.content-text-justify {
+  text-align: justify;
+}
+.content-text-center {
+  text-align: center;
+}
+.content-text-left {
+  text-align: left;
+}
+.content-text-right {
+  text-align: right;
+}
