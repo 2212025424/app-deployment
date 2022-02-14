@@ -200,13 +200,34 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: var(--text-md);
-  color: var(--content-color-dark);
   cursor: pointer;
   border-radius: var(--rounded);
+  color: var(--content-color-dark);
 }
 
 .simple-button:hover {
   background-color: var(--content-bg-color-tertiary);
+}
+
+.primary-button {
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: var(--text-md);
+  cursor: pointer;
+  border-radius: var(--rounded);
+  color: var(--main-app-color);
+  border: solid var(--border-xm) var(--main-app-color);
+  transition: all 1s;
+}
+
+.primary-button:hover {
+  font-weight: bold;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------
@@ -234,7 +255,7 @@ body {
 }
 
 .text-primary {
-  font-size: var(--text-xg);
+  font-size: var(--text-xl);
   color: var(--main-app-color);
 }
 
@@ -280,8 +301,14 @@ body {
 ---| Componentes de servicios
 --------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-.wrap-components-target {
+.grid-component-min-220 {
   display: grid;
   gap: var(--space-xg);
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.grid-component-min-400 {
+  display: grid;
+  gap: var(--space-xg);
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }

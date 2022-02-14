@@ -123,3 +123,6 @@
 .content-text-right {
   text-align: right;
 }
+.content-text-through {
+  text-decoration: line-through;
+}
