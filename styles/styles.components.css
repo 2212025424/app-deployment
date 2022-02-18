@@ -261,7 +261,7 @@ body {
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------
----| Pizarras 
+---| Pizarras de contenido
 --------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .simple-primary-slate {
@@ -283,10 +283,17 @@ body {
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------
----| Componentes de servicios
+---| Tamaño de las imágenes
 --------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-.image-responsive {
+.image-responsive-bg {
+  position: relative;
+  width: 70%;
+  min-height: 20px;
+  margin: auto;
+}
+
+.image-responsive-md {
   position: relative;
   width: 50%;
   min-height: 20px;
@@ -294,17 +301,29 @@ body {
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------
----| Componentes de servicios
+---| Estructura de columnas
 --------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-.grid-component-min-220 {
+.grid-layout-content-bg {
   display: grid;
   gap: var(--space-xg);
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(var(--content-grid-bg), 1fr));
 }
 
-.grid-component-min-400 {
+.grid-layout-content-md {
   display: grid;
   gap: var(--space-xg);
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(var(--content-grid-md), 1fr));
+}
+
+.grid-layout-content-sm {
+  display: grid;
+  gap: var(--space-xg);
+  grid-template-columns: repeat(auto-fit, minmax(var(--content-grid-sm), 1fr));
+}
+
+.grid-layout-content-xm {
+  display: grid;
+  gap: var(--space-xg);
+  grid-template-columns: repeat(auto-fit, minmax(var(--content-grid-xm), 1fr));
 }

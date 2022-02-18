@@ -33,6 +33,11 @@
   --border-sm: 3px;
   --border-xm: 1px;
 
+  --content-grid-bg: 300px;
+  --content-grid-md: 250px;
+  --content-grid-sm: 150px;
+  --content-grid-xm: 100px;
+
   --rounded: 3px;
 }
 
@@ -45,4 +50,9 @@
   font-family: "Poppins", Courier, monospace;
   margin: 0px;
   padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(16, 141, 230);
 }
