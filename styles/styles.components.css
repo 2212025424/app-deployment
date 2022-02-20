@@ -235,7 +235,12 @@ body {
   color: var(--main-app-color);
 }
 
-.text-subtitle {
+.text-subtitle-primary {
+  font-size: var(--text-bg);
+  color: var(--main-app-color);
+}
+
+.text-subtitle-secondary {
   font-size: var(--text-bg);
   color: var(--content-color-dark);
 }
