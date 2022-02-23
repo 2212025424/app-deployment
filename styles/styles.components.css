@@ -201,6 +201,7 @@ body {
   font-weight: bold;
   font-size: var(--text-md);
   cursor: pointer;
+  user-select: none;
   border-radius: var(--rounded);
   color: var(--content-color-dark);
 }
@@ -220,6 +221,7 @@ body {
   text-decoration: none;
   font-size: var(--text-md);
   cursor: pointer;
+  user-select: none;
   border-radius: var(--rounded);
   color: var(--main-app-color);
   border: solid var(--border-xm) var(--main-app-color);
@@ -243,6 +245,11 @@ body {
 .text-subtitle-secondary {
   font-size: var(--text-bg);
   color: var(--content-color-dark);
+}
+
+.text-content-primary {
+  font-size: var(--text-md);
+  color: var(--main-app-color);
 }
 
 .text-content {
@@ -331,4 +338,55 @@ body {
   display: grid;
   gap: var(--space-xg);
   grid-template-columns: repeat(auto-fit, minmax(var(--content-grid-xm), 1fr));
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------
+---| Ventanas modales
+--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.wrap-modal-window {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  overflow-y: auto;
+  background-color: var(--content-bg-transparency);
+}
+
+.simple-modal-window {
+  position: relative;
+  padding: var(--space-bg);
+  width: 85%;
+  min-width: 300px;
+  max-width: 600px;
+  margin: auto;
+  margin-top: calc(var(--space-xg) + var(--space-md));
+  margin-bottom: calc(var(--space-xg) + var(--space-md));
+  border-radius: var(--rounded);
+  background-color: var(--content-bg-color-primary);
+}
+
+.wrap-modal-window.modal-hidden {
+  display: none;
+}
+
+.modal-disabling-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 20px;
+  transform: rotate(45deg);
+  user-select: none;
+  color: white;
+  background-color: red;
+  box-shadow: var(--general-shadow);
 }

@@ -1,12 +1,12 @@
 :root {
   --main-app-color: rgb(244, 98, 88);
   --on-main-app-color: rgb(255, 255, 255);
-  --main-app-color-variation: rgb(237, 95, 85);
   --content-color-dark: rgb(30, 30, 30);
   --content-color-light: rgb(140, 140, 140);
   --content-bg-color-primary: rgb(255, 255, 255);
   --content-bg-color-secondary: rgb(252, 252, 252);
   --content-bg-color-tertiary: rgb(230, 230, 230);
+  --content-bg-transparency: rgba(0, 0, 0, 0.5);
   --screen-bg-color: rgb(246, 246, 246);
 
   --general-shadow: 0px 0px 10px -7px var(--content-color-dark);

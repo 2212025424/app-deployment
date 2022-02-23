@@ -12,6 +12,7 @@ export default function DocumentLayout({ children }) {
                 <meta name="description" content="Tarjeta de presentación de Jose Enrique Zempoaltecatl Moyotl, quien es desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por UPPuebla."/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type": "WebPage","headline": "Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl - Desarrollo de software", "description": "Tarjeta de presentación de Jose Enrique Zempoaltecatl Moyotl, quien es desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por UPPuebla.","alternateName": "cv Jose Enrique","url": `${process.env.canonicalLink}`,"ImageObject": `${process.env.canonicalLink + 'images/kike_zempo_profile.jpg'}`})}} />
+                <script src="/static/modal-functions/modal-functions.js" />
                 {/* <meta name="google-site-verification" content="..." />*/}
             </Head>
             <div className="wrap-template">

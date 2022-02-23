@@ -1,6 +1,9 @@
+import { useState } from "react"
 import Image from 'next/image'
+import Modal from '../components/SimpleModal/SimpleModal'
 
-export default function Index () {
+export default function desarrollo () {
+
     return (
         <div>
 
@@ -71,22 +74,22 @@ export default function Index () {
                     <p className="text-content content-mb-xm">Testimonios max. 10</p>
                     <p className="text-content content-mb-xm">Novedades max. 10</p>
                     <p className="text-content content-mb-bg">Galería de imágenes max. 10</p>
-                    <div className="primary-button">Ver detalles</div>
+                    <span className="primary-button modal-activator-button" data-target="simple-modal-01">Ves detalles</span>
                 </div>
                 <div className="simple-primary-slate content-text-center">
                     <h3 className="text-subtitle-secondary">Empresarial</h3>
                     <p className="text-description content-mt-sm">Ideal para dar a conocer su empresa de manera profesional y ofertar productos o servicios</p>
                     <h4 className="text-primary content-my-md">$ 6,500</h4>
-                    <p className="text-content content-mb-xm">Hasta 5 secciones</p>
+                    <p className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> Hasta 5 secciones</p>
                     <p className="text-content content-mb-xm">Hosting y dominio por un año</p>
-                    <p className="text-content content-mb-xm">Formulario de contacto</p>
+                    <p className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> Formulario de contacto</p>
                     <p className="text-content content-mb-xm">Enlace a sus redes sociales</p>
                     <p className="text-content content-mb-xm">Imagen de portada</p>
                     <p className="text-content content-mb-xm">Mapa de ubicación con google</p>
                     <p className="text-content content-mb-xm">Testimonios max. 10</p>
                     <p className="text-content content-mb-xm">Novedades max. 10</p>
                     <p className="text-content content-mb-bg">Galería de imágenes max. 10</p>
-                    <div className="primary-button">Ver detalles</div>
+                    <div className="primary-button modal-activator-button" data-target="simple-modal-02">Ver detalles</div>
                 </div>
                 <div className="simple-primary-slate content-text-center">
                     <h3 className="text-subtitle-secondary">Gestor de contenido</h3>
@@ -96,17 +99,17 @@ export default function Index () {
                     <p className="text-content content-mb-xm">Hosting y dominio por un año</p>
                     <p className="text-content content-mb-xm">Formulario de contacto</p>
                     <p className="text-content content-mb-xm">Enlace a sus redes sociales</p>
-                    <p className="text-content content-mb-xm">Imagen de portada dinámica</p>
+                    <p className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> Imagen de portada dinámica</p>
                     <p className="text-content content-mb-xm">Mapa de ubicación con google</p>
-                    <p className="text-content content-mb-xm">Gestor de testimonios</p>
-                    <p className="text-content content-mb-xm">Gestor de novedades</p>
-                    <p className="text-content content-mb-bg">Getor de galería de imágenes</p>
-                    <div className="primary-button">Ver detalles</div>
+                    <p className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> Gestor de testimonios</p>
+                    <p className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> Gestor de novedades</p>
+                    <p className="text-content content-mb-bg"><i className="icon-thumbs-up text-content-primary"></i> Getor de galería de imágenes</p>
+                    <div className="primary-button modal-activator-button" data-target="simple-modal-03">Ver detalles</div>
                 </div>
                 <div className="simple-primary-slate content-text-center">
                     <h3 className="text-subtitle-secondary">Productos o servicios</h3>
                     <p className="text-description content-mt-sm">Ideal para negocios que requieren ofertar y gestionar sus productos o servicios de manera eficiente</p>
-                    <h4 className="text-primary content-my-md">$ 15,000</h4>
+                    <h4 className="text-primary content-my-md">$ 14,000</h4>
                     <p className="text-content content-mb-xm">Hasta 5 secciones</p>
                     <p className="text-content content-mb-xm">Hosting y dominio por un año</p>
                     <p className="text-content content-mb-xm">Formulario de contacto</p>
@@ -116,7 +119,7 @@ export default function Index () {
                     <p className="text-content content-mb-xm">Gestor de novedades</p>
                     <p className="text-content content-mb-xm">Gestor de categorías</p>
                     <p className="text-content content-mb-bg">Gestor de productos o servicios</p>
-                    <div className="primary-button">Ver detalles</div>
+                    <div className="primary-button modal-activator-button" data-target="simple-modal-04">Ver detalles</div>
                 </div>
                 <div className="simple-primary-slate content-text-center">
                     <h3 className="text-subtitle-secondary">Tienda en línea</h3>
@@ -131,7 +134,7 @@ export default function Index () {
                     <p className="text-content content-mb-xm">Administración de ventas</p>
                     <p className="text-content content-mb-xm">Pasarela de pago</p>
                     <p className="text-content content-mb-bg">Carrito de compras</p>
-                    <div className="primary-button">Ver detalles</div>
+                    <div className="primary-button modal-activator-button" data-target="simple-modal-05">Ver detalles</div>
                 </div>
                 <div className="simple-primary-slate content-text-center">
                     <h3 className="text-subtitle-secondary">Sistema de inventario</h3>
@@ -146,9 +149,56 @@ export default function Index () {
                     <p className="text-content content-mb-xm">Administración de clientes</p>
                     <p className="text-content content-mb-xm">Administración de usuarios</p>
                     <p className="text-content content-mb-bg">Administración de insumos</p>
-                    <div className="primary-button">Ver detalles</div>
+                    <div className="primary-button modal-activator-button" data-target="simple-modal-06">Ver detalles</div>
                 </div>
             </div>
+
+            <Modal identifier="simple-modal-01">
+                <h1 className="text-title content-mb-bg">Paquete web emprendedor</h1>
+                <p className="text-subtitle-secondary content-mb-xm">Detalle de servicios que se ofrecen:</p>
+                <li className="text-content content-mb-xm">1 única sección</li>
+                <p className="text-description content-mb-sm content-text-justify">Se desarrolla una sóla página que detalle contenido de su empresa como (nombre empresa, imagen principal, novedades, testimonios, galería, mapa de ubicación con google, horario)</p>
+                <li className="text-content content-mb-xm">Hosting y dominio</li>
+                <p className="text-description content-mb-sm content-text-justify">Para la puesta en producción de su proyecto, se requiere la renta de dominio y de un hosting, mismo que requiere una <span className="text-content">renovación anual de $1,500.00 pesos</span>. Usted cuenta con este servicio el primer año al contratar este plan.</p>
+                <li className="text-content content-mb-xm">Enlace a sus redes sociales</li>
+                <p className="text-description content-mb-sm content-text-justify">Se le solicitan los enlaces de sus redes sociales para colocarlos en su sitio web y así los visitantes tengan más alternativas de indexar su contenido.</p>
+                <li className="text-content content-mb-xm">Imagen de portada</li>
+                <p className="text-description content-mb-sm content-text-justify">Se coloca una imagen que sea referente a sus actividades, de esta forma las personas se adentran a su contexto.</p>
+                <li className="text-content content-mb-xm">Mapa de ubicación con google</li>
+                <p className="text-description content-mb-sm content-text-justify">Se le da la opción de colocar el mapa de google a su sitio, así las personas sabrán la ubicación de su empresa.</p>
+                <li className="text-content content-mb-xm">Testimonios</li>
+                <p className="text-description content-mb-sm content-text-justify">Se colocan algunos de los comentarios que tienen sus clientes y que a usted le interesan, acerca de sus servicios o productos para así promocianar más su empresa (límite de 10).</p>
+                <li className="text-content content-mb-xm">Novedades</li>
+                <p className="text-description content-mb-sm content-text-justify">Se le da un enfoque de publicación (noticias, eventos, promociones) que a usted le interesa que los visitantes visualicen como relevantes o en primera instancia (límite de 10).</p>
+                <li className="text-content content-mb-xm">Galería de imágenes</li>
+                <p className="text-description content-mb-sm content-text-justify">Se coloca una galería de imágenes estática, usted decide que imágenes de su negocio le gustaría mostrar a sus visitantes, de esta forma hace más relevante su empresa o contenido.</p>
+            </Modal>
+            <Modal identifier="simple-modal-02">
+                <h1 className="text-title content-mb-bg">Paquete web empresarial</h1>
+                <p className="text-subtitle-secondary content-mb-xm">Detalle de servicios que se ofrecen:</p>
+                <li className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> 5 secciones de información</li>
+                <p className="text-description content-mb-sm content-text-justify">Se puede desarrollar un máximo de 5 secciones informativas o también llamadas páginas estáticas, por ejemplo: inicio, acerca de su empresa, contacto, productos/servicios (máximo 15), blog estático, preguntas frecuentes. Usted facilita toda la información.</p>
+                <li className="text-content content-mb-xm">Hosting y dominio</li>
+                <p className="text-description content-mb-sm content-text-justify">Para la puesta en producción de su proyecto, se requiere la renta de dominio y de un hosting, mismo que requiere una <span className="text-content">renovación anual de $1,500.00 pesos</span>. Usted cuenta con este servicio el primer año al contratar este plan.</p>
+                <li className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> Formulario de contacto</li>
+                <p className="text-description content-mb-sm content-text-justify">Se integra con la finalidad de dar a los visitantes una forma más de ponerse en contacto, puede solicitar una cotización o dejar un mensaje sobre alguna duda de los servicios, productos o paquetes que oferta.</p>
+                <li className="text-content content-mb-xm">Enlace a sus redes sociales</li>
+                <p className="text-description content-mb-sm content-text-justify">Se le solicitan los enlaces de sus redes sociales para colocarlos en su sitio web y así los visitantes tengan más alternativas de indexar su contenido.</p>
+                <li className="text-content content-mb-xm">Imagen de portada</li>
+                <p className="text-description content-mb-sm content-text-justify">Se coloca una imagen que sea referente a sus actividades, de esta forma las personas se adentran a su contexto.</p>
+                <li className="text-content content-mb-xm">Mapa de ubicación con google</li>
+                <p className="text-description content-mb-sm content-text-justify">Se le da la opción de colocar el mapa de google a su sitio, así las personas sabrán la ubicación de su empresa.</p>
+                <li className="text-content content-mb-xm">Testimonios</li>
+                <p className="text-description content-mb-sm content-text-justify">Se colocan algunos de los comentarios que tienen sus clientes y que a usted le interesan, acerca de sus servicios o productos para así promocianar más su empresa (límite de 10).</p>
+                <li className="text-content content-mb-xm">Novedades</li>
+                <p className="text-description content-mb-sm content-text-justify">Se le da un enfoque de publicación (noticias, eventos, promociones) que a usted le interesa que los visitantes visualicen como relevantes o en primera instancia (límite de 10).</p>
+                <li className="text-content content-mb-xm">Galería de imágenes</li>
+                <p className="text-description content-mb-sm content-text-justify">Se coloca una galería de imágenes estática, usted decide que imágenes de su negocio le gustaría mostrar a sus visitantes, de esta forma hace más relevante su empresa o contenido.</p>
+            </Modal>
+            <Modal identifier="simple-modal-03">Modal 3</Modal>
+            <Modal identifier="simple-modal-04">Modal 4</Modal>
+            <Modal identifier="simple-modal-05">Modal 5</Modal>
+            <Modal identifier="simple-modal-06">Modal 6</Modal>
         </div>
 
     )
