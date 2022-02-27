@@ -18,10 +18,10 @@ export default function DocumentLayout({ children }) {
                 
                 <meta name="og:title" content="Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl" />
                 <meta name="og:type" content="WebSite" />
-                <meta name="og:url" content="https://tarjeta-kike-zempo.vercel.app/" />
+                <meta name="og:url" content={process.env.canonicalLink} />
                 <meta name="og:description" content="Tarjeta de presentación de Jose Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla." />
                 <meta name="og:site_name" content="CodeLine" />
-                <meta name="og:image" content="/images/logo/logo-code-line.jpg" />
+                <meta name="og:image" content={process.env.canonicalLink + 'images/logo/logo-code-line.jpg'} />
                 
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
                     "@context": "https://schema.org/",
