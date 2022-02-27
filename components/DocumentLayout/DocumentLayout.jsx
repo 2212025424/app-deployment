@@ -21,7 +21,7 @@ export default function DocumentLayout({ children }) {
                 <meta name="og:url" content={process.env.canonicalLink} />
                 <meta name="og:description" content="Tarjeta de presentación de Jose Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla." />
                 <meta name="og:site_name" content={process.env.webSiteName} />
-                <meta name="og:image" content="/images/logo/image-code-line.jpg" />
+                <meta name="og:image" content={process.env.canonicalLink + '/images/logo/image-code-line.jpg'} />
                 
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
                     "@context": "https://schema.org/",
