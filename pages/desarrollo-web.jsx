@@ -261,7 +261,30 @@ export default function desarrollo () {
                 <li className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> Pasarela de pago</li>
                 <p className="text-description content-mb-sm content-text-justify">Se implementa la funcionalidad para realizar pagos en línea PayPal, uno de los métodos más seguros para realizar pagos en línea, pues toda tu información financiera se mantiene de manera privada.</p>
             </Modal>
-            <Modal identifier="simple-modal-06">Modal 6</Modal>
+            <Modal identifier="simple-modal-06">
+                <h1 className="text-title content-mb-bg">Sistema de inventario</h1>
+                <p className="text-subtitle-secondary content-mb-xm">Aclaraciones:</p>
+                <p className="text-description content-mb-bg content-text-justify">Este paquete no tiene un precio fijo pues se determina dependiendo sus requerimientos, mismos que se bajo una entrevista sobre lo que desea administrar y del proceso de su negocio se definen.</p>
+                <p className="text-subtitle-secondary content-mb-xm">Algunas características de este paquete:</p>
+                <li className="text-content content-mb-xm">5 secciones de información</li>
+                <p className="text-description content-mb-sm content-text-justify">Se puede desarrollar un máximo de 5 secciones informativas o también llamadas páginas estáticas, por ejemplo: inicio, acerca de su empresa, contacto, blog estático, preguntas frecuentes. Usted facilita toda la información.</p>
+                <li className="text-content content-mb-xm">Hosting y dominio</li>
+                <p className="text-description content-mb-sm content-text-justify">Para la puesta en producción de su proyecto, se requiere la renta de un dominio y hosting, mismo que requiere una <span className="text-content">renovación anual de $1,500.00 pesos</span>. Usted cuenta con este servicio el primer año al contratar este plan.</p>
+                <li className="text-content content-mb-xm">Administración de compras</li>
+                <p className="text-description content-mb-sm content-text-justify">Usted tiene el control para agregar nuevas existencias de los productos que oferta en su negocio.</p>
+                <li className="text-content content-mb-xm">Administración de categorías</li>
+                <p className="text-description content-mb-sm content-text-justify">Usted puede gestionar la forma en la que sus productos se clacifican en el sistema con categorías y subcategorías, con la finalidad de tener un mejor a la hora de ofertar o realizar ventas.</p>
+                <li className="text-content content-mb-xm">Administración de productos</li>
+                <p className="text-description content-mb-sm content-text-justify">Se desarrolla una sección donde puede agregar productos, actualizar la información de los mismos (imágenes, nombre, precio, descripción), eliminarlos o suspender su venta.</p>
+                <li className="text-content content-mb-xm">Administración de ventas</li>
+                <p className="text-description content-mb-sm content-text-justify">Tiene el control total de las ventas realizadas, con detalle de los productos, la cantidad y las ganancias en cada una de ellas.</p>
+                <li className="text-content content-mb-xm">Administración de clientes</li>
+                <p className="text-description content-mb-sm content-text-justify">Se agrega un registro de clientes para así contemplar la fidelidad de los mismos y tener registro de datos relevantes, de esta forma usted podrá enviar información con los permisos necesarios de forma directa.</p>
+                <li className="text-content content-mb-xm">Administración de usuarios</li>
+                <p className="text-description content-mb-sm content-text-justify">Usted puede crear usuario con diferentes permisos, para que así haya más personas con acceso al sistema y puedan alimentarlo de información en diferentes áreas de su empresa o negocio.</p>
+                <li className="text-content content-mb-xm">Administración de insumos</li>
+                <p className="text-description content-mb-sm content-text-justify">Se agrega los productos que se requieren para la elaboración de sus productos, de esta forma tienen una mayor gestión de las existencias de las materias primas.</p>
+            </Modal>
         </div>
 
     )

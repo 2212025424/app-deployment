@@ -15,5 +15,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
             const modal = document.getElementById(this.getAttribute("data-target"))
             modal.classList.add("modal-hidden")
         })
-    })    
+    })
+
 });
