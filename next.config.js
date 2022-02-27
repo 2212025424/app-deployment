@@ -15,7 +15,8 @@ module.exports = withPlugins(
             domains: [],
         },
         env: {
-            canonicalLink: "http://localhost:3000/"
+            canonicalLink: "https://tarjeta-kike-zempo.vercel.app/",
+            webSiteName: "CodesLine"
         }
     }
 )

@@ -6,14 +6,34 @@ export default function DocumentLayout({ children }) {
         <div>
             <Head>
                 <meta charSet="utf-8"/>
-                <title>Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl - Desarrollo de software</title>
-                <link rel="shortcut icon" href="/images/favicon.svg"></link>
-                <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-                <meta name="description" content="Tarjeta de presentación de Jose Enrique Zempoaltecatl Moyotl, quien es desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por UPPuebla."/>
+                <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({"@context":"https://schema.org","@type": "WebPage","headline": "Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl - Desarrollo de software", "description": "Tarjeta de presentación de Jose Enrique Zempoaltecatl Moyotl, quien es desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por UPPuebla.","alternateName": "cv Jose Enrique","url": `${process.env.canonicalLink}`,"ImageObject": `${process.env.canonicalLink + 'images/kike_zempo_profile.jpg'}`})}} />
+                <link rel="shortcut icon" href="/images/logo/image-code-line.svg"></link>
+                
+                <title>Tarjeta de presentación | José Enrique Zempoaltecatl Moyotl</title>
+                <meta name="description" content="Tarjeta de presentación de Jose Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla."/>
+                <meta name="keywords" content="Desarrollo de software, Desarrollo we aplicaciones, Aplicaciones web, Desarrollo web, Páginas web, Desarrollo de páginas web, Precios de páginas web,  Panes de páginas web, Tarjeta presentación de José Enrique Zempoaltecatl Moyotl, José Enrique Zempoaltecatl Moyotl" />
+                <meta name="author" content={process.env.webSiteName} />
+                <meta name="copyright" content="José Enrique Zempoaltecatl Moyotl" />
+                
+                <meta name="og:title" content="Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl" />
+                <meta name="og:type" content="WebSite" />
+                <meta name="og:url" content="https://tarjeta-kike-zempo.vercel.app/" />
+                <meta name="og:description" content="Tarjeta de presentación de Jose Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla." />
+                <meta name="og:site_name" content="CodeLine" />
+                <meta name="og:image" content="/images/logo/logo-code-line.jpg" />
+                
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+                    "@context": "https://schema.org/",
+                    "@type": "WebPage",
+                    "author": {
+                        "@type": "Person",
+                        "name": "José Enrique Zempoaltecatl Moyotl"
+                    },
+                    "datePublished": "2022-03-01",
+                    "description": "Tarjeta de presentación de Jose Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla."
+                })}} />
                 <script src="/static/html-events/html-events.js" />
-                {/* <meta name="google-site-verification" content="..." />*/}
             </Head>
             <div className="wrap-template">
                 <section className="wrap-template-target">

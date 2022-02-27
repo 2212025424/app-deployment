@@ -1,0 +1,25 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 239" width="1000" height="239">
+	<title>image-code-line</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #ffc122 } 
+		.s1 { fill: #f46258 } 
+		.t2 { font-size: 150px;fill: #ffc122;font-weight: 700;font-family: "DejaVuSansCondensed-Bold", "DejaVu Sans" } 
+	</style>
+	<g id="Carpeta 1">
+		<g id="LOGO V3">
+			<g id="MAINLOGO">
+				<path id="Forma 1 copy 5" class="s0" d="m43.9 95.5c1.9-1.8 4.9-1.8 6.7 0l107.1 107.3c1.9 1.8 1.9 4.9 0 6.7l-21.7 21.8c-1.8 1.8-4.9 1.8-6.7 0l-107.1-107.3c-1.9-1.8-1.9-4.9 0-6.7z" />
+				<path id="Forma 1 copy 4" class="s1" d="m197.2 116c1.8 1.9 1.8 4.9 0 6.8l-107.8 107.9c-1.9 1.9-4.9 1.9-6.8 0l-21.9-21.9c-1.8-1.9-1.8-4.9 0-6.8l107.8-107.9c1.9-1.9 4.9-1.9 6.8 0z" />
+				<path id="Forma 1 copy 3" class="s1" d="m175.3 143.8c-1.9 1.9-4.9 1.9-6.8 0l-107.8-107.9c-1.8-1.9-1.8-4.9 0-6.8l21.9-21.9c1.9-1.9 4.9-1.9 6.8 0l107.8 108c1.8 1.8 1.8 4.9 0 6.7z" />
+				<path id="Forma 4" class="s0" d="m21.3 123.1c-1.9-1.9-1.9-4.9 0-6.8l107.1-107.2c1.8-1.9 4.9-1.9 6.7 0l21.7 21.7c1.9 1.9 1.9 4.9 0 6.8l-107.1 107.2c-1.8 1.9-4.8 1.9-6.7 0z" />
+				<path id="PUNTO copy" class="s1" d="m109.5 133.8c-7.9 0-14.3-6.4-14.3-14.3c0-7.9 6.4-14.3 14.3-14.3c8 0 14.4 6.4 14.4 14.3c0 7.9-6.4 14.3-14.4 14.3z" />
+			</g>
+		</g>
+		<path id="SEPARADOR" class="s1" d="m640.3 133.8c-7.9 0-14.3-6.4-14.3-14.3c0-7.9 6.4-14.3 14.3-14.3c7.9 0 14.3 6.4 14.3 14.3c0 7.9-6.4 14.3-14.3 14.3z" />
+		<text id="TEXT" style="transform: matrix(.955,0,0,.956,218.364,173.992)" >
+			<tspan x="0" y="0" class="t2">C</tspan><tspan  y="0" class="t2">O</tspan><tspan  y="0" class="t2">D</tspan><tspan  y="0" class="t2">E</tspan><tspan  y="0" class="t2"> </tspan><tspan  y="0" class="t2">L</tspan><tspan  y="0" class="t2">I</tspan><tspan  y="0" class="t2">N</tspan><tspan  y="0" class="t2">E
+</tspan>
+		</text>
+	</g>
+</svg>
