@@ -25,15 +25,6 @@ export default function DocumentLayout({ children }) {
 
                 <meta name="google-site-verification" content="gzPUwKxJdQh7OpY0vihIK4GXSGHgjCy8HfyVZpeNOsg" />
                 
-                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-                    "@context": "https://schema.org/",
-                    "@type": "WebPage",
-                    "author": {
-                        "@type": "Person",
-                        "name": "José Enrique Zempoaltecatl Moyotl"
-                    },
-                    "description": "Tarjeta de presentación de Jose Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla."
-                })}} />
                 <script src="/static/html-events/html-events.js" />
             </Head>
             <div className="wrap-template">
