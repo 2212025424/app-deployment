@@ -24,14 +24,10 @@ body {
 
 .wrap-template-content {
   position: relative;
-  padding-top: 8px;
+  padding-top: 10px;
   padding-bottom: 100px;
   box-sizing: border-box;
   min-height: calc(100vh - 2 * var(--space-md));
-}
-
-.wrap-template-menu {
-  background-color: var(--content-bg-color-primary);
 }
 
 .wrap-template-footer {
@@ -47,6 +43,38 @@ body {
   color: var(--content-color-dark);
   box-shadow: var(--general-shadow);
   background-color: var(--content-bg-color-primary);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------
+---| Menú lateral de aplicacion
+--------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.lateral-menu {
+  height: calc(100vh - (2 * var(--space-md)));
+  width: 100%;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  box-shadow: var(--general-shadow);
+  background-color: var(--content-bg-color-secondary);
+}
+
+.lateral-menu-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--shadow-bottom);
+  background: var(--content-bg-color-primary);
+}
+
+.lateral-menu-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: var(--space-sm);
+  padding-bottom: var(--space-sm);
+  font-size: var(--text-md);
+  overflow: auto;
+  color: var(--content-color-light);
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------

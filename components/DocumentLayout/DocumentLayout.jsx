@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import PresentationCard from '../PresentationCard/PresentationCard'
+import LateralMenu from '../LateralMenu/LateralMenu'
 
 export default function DocumentLayout({ children }) {
     return (
@@ -24,8 +25,6 @@ export default function DocumentLayout({ children }) {
                 <meta name="og:image" content={process.env.canonicalLink + '/images/logo/image-codes-line.jpg' } />
 
                 <meta name="google-site-verification" content="gzPUwKxJdQh7OpY0vihIK4GXSGHgjCy8HfyVZpeNOsg" />
-                
-                <script src="/static/html-events/html-events.js" />
             </Head>
             <div className="wrap-template">
                 <section className="wrap-template-target">
@@ -47,7 +46,7 @@ export default function DocumentLayout({ children }) {
                     </div>
                 </main>
                 <section className="wrap-template-menu">
-                    Ah
+                    <LateralMenu/>
                 </section>
             </div>
         </>
