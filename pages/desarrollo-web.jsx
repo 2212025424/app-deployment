@@ -1,11 +1,34 @@
 import { useState } from "react"
+import Head from 'next/head'
 import Image from 'next/image'
 import Modal from '../components/SimpleModal/SimpleModal'
 
 export default function desarrollo () {
 
     return (
-        <div>
+        <>
+            <Head>
+                <title>Desarrollo web | {process.env.webSiteName}</title>
+                <meta name="description" content="Le ofrecemos paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades."/>
+                <meta name="keywords" content="Desarrollo de software, Desarrollo de aplicaciones web, Aplicaciones web, Desarrollo web, Páginas web, Desarrollo de páginas web, Precios de páginas web,  Panes de páginas web, Tarjeta presentación de José Enrique Zempoaltecatl Moyotl, José Enrique Zempoaltecatl Moyotl, Sitios web" />
+                
+                <meta name="og:type" content="WebSite" />
+                <meta name="og:title" content={'Desarrollo web | '+process.env.webSiteName} />
+                <meta name="og:description" content="Le ofrecemos paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades." />
+                <meta name="og:url" content={process.env.canonicalLink} />
+                <meta name="og:site_name" content={process.env.webSiteName} />
+                <meta name="og:image" content={process.env.canonicalLink + 'images/logo/image-codes-line.jpg' } />
+
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+                    "@context": "https://schema.org/",
+                    "@type": "WebPage",
+                    "author": {
+                        "@type": "Person",
+                        "name": "José Enrique Zempoaltecatl Moyotl"
+                    },
+                    "description": "Le ofrecemos paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades."
+                })}} />
+            </Head>
 
             {/* A cerca del servicio */}
 
@@ -285,7 +308,6 @@ export default function desarrollo () {
                 <li className="text-content content-mb-xm">Administración de insumos</li>
                 <p className="text-description content-mb-sm content-text-justify">Se agrega los productos que se requieren para la elaboración de sus productos, de esta forma tienen una mayor gestión de las existencias de las materias primas.</p>
             </Modal>
-        </div>
-
+        </>
     )
 }

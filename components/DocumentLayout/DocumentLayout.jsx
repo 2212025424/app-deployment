@@ -3,7 +3,7 @@ import PresentationCard from '../PresentationCard/PresentationCard'
 
 export default function DocumentLayout({ children }) {
     return (
-        <div>
+        <>
             <Head>
                 <meta charSet="utf-8"/>
                 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -59,6 +59,6 @@ export default function DocumentLayout({ children }) {
                     Ah
                 </section>
             </div>
-        </div>
+        </>
     )
 }

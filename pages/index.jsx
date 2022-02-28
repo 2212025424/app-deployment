@@ -1,8 +1,31 @@
 import Image from 'next/image'
+import Head from 'next/head'
 
 export default function Index () {
     return (
-        <div>
+        <>
+            <Head>
+                <title>Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl</title>
+                <meta name="description" content="Tarjeta de presentación de Jose Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla."/>
+                <meta name="keywords" content="Desarrollo de software, Desarrollo de aplicaciones web, Aplicaciones web, Desarrollo web, Páginas web, Desarrollo de páginas web, Precios de páginas web,  Panes de páginas web, Tarjeta presentación de José Enrique Zempoaltecatl Moyotl, José Enrique Zempoaltecatl Moyotl, Sitios web" />
+                
+                <meta name="og:type" content="WebSite" />
+                <meta name="og:title" content="Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl" />
+                <meta name="og:description" content="Tarjeta de presentación de Jose Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla." />
+                <meta name="og:url" content={process.env.canonicalLink} />
+                <meta name="og:site_name" content={process.env.webSiteName} />
+                <meta name="og:image" content={process.env.canonicalLink + 'images/logo/image-codes-line.jpg' } />
+
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+                    "@context": "https://schema.org/",
+                    "@type": "WebPage",
+                    "author": {
+                        "@type": "Person",
+                        "name": "José Enrique Zempoaltecatl Moyotl"
+                    },
+                    "description": "Tarjeta de presentación de Jose Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla."
+                })}} />
+            </Head>
 
             {/* Tarjeta de presentación principal */}
 
@@ -131,7 +154,6 @@ export default function Index () {
                     </div>
                 </div>
             </div>
-        </div>
-
+        </>
     )
 }
