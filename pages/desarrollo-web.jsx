@@ -28,8 +28,6 @@ export default function desarrollo () {
                     },
                     "description": "Le ofrecemos paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades."
                 })}} />
-
-                <script src="/static/html-events/html-events.js" />
             </Head>
 
             {/* A cerca del servicio */}
