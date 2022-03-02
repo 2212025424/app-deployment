@@ -5,7 +5,7 @@ export default function Index () {
     return (
         <>
             <Head>
-                <title>Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl</title>
+                <title>Tarjeta de presentación de José Enrique | {process.env.webSiteName}</title>
                 <meta name="description" content="Tarjeta de presentación de Jose Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla."/>
                 <meta name="keywords" content="Desarrollo de software, Desarrollo de aplicaciones web, Aplicaciones web, Desarrollo web, Páginas web, Desarrollo de páginas web, Precios de páginas web,  Panes de páginas web, Tarjeta presentación de José Enrique Zempoaltecatl Moyotl, José Enrique Zempoaltecatl Moyotl, Sitios web" />
                 
