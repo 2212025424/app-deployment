@@ -37,12 +37,29 @@ export default function DocumentLayout({ children }) {
 
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
                     "@context": "https://schema.org/",
-                    "@type": "Coporation",
+                    "@type": "Corporation",
                     "url": process.env.canonicalLink,
                     "name": process.env.webSiteName,
                     "legalName": process.env.webSiteName,
                     "description": process.env.webSiteName + ' es una empresa de desarrollo web, misma que es capas de apoyarlo con proyectos en páginas, sitio y aplicaciones web complejas básicas y complejas con tecnología que se adapte a sus necesidades y presupuesto.',
-                    "image": process.env.canonicalLink + '/images/logo/image-codes-line.jpg',
+                    "image": process.env.canonicalLink + 'images/logo/image-codes-line.jpg',
+                    "alumi": {
+                        "@type": "Person",
+                        "name": "José Enrique Zempoaltecatl Moyotl"
+                    },
+                    "author": {
+                        "@type": "Person",
+                        "name": "José Enrique Zempoaltecatl Moyotl"
+                    }
+                })}} />
+
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+                    "@context": "https://schema.org/",
+                    "@type": "Organization",
+                    "@id": process.env.canonicalLink,
+                    "name": process.env.webSiteName,
+                    "url": process.env.canonicalLink,
+                    "logo": process.env.canonicalLink + 'images/logo/image-codes-line.jpg',
                     "alumi": {
                         "@type": "Person",
                         "name": "José Enrique Zempoaltecatl Moyotl"
