@@ -1,4 +1,3 @@
-import { useState } from "react"
 import Head from 'next/head'
 import Image from 'next/image'
 import Modal from '../components/SimpleModal/SimpleModal'
@@ -29,8 +28,6 @@ export default function desarrollo () {
                     "description": "Le ofrecemos paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades."
                 })}} />
             </Head>
-
-            {/* A cerca del servicio */}
 
             <p className="text-subtitle-primary content-mb-xb">Todos los paquetes incluyen</p>
 
@@ -78,8 +75,6 @@ export default function desarrollo () {
                     <p className="text-content content-text-justify content-mt-sm">En la puesta en producción se brinda un certificado de seguridad (SSL), para que así nuestra información se mantenga integra ante cualquier intersección en la red.</p>
                 </div>
             </div>
-
-            {/* Principales paquetes de conveniencia */}
         
             <p className="text-subtitle-primary content-my-xb">Paquetes de desarrollo web</p>
 
@@ -310,4 +305,5 @@ export default function desarrollo () {
             </Modal>
         </>
     )
+
 }

@@ -2,16 +2,17 @@ import Image from 'next/image'
 import Head from 'next/head'
 
 export default function Index () {
+
     return (
         <>
             <Head>
                 <title>Tarjeta de presentación de José Enrique | {process.env.webSiteName}</title>
-                <meta name="description" content="Tarjeta de presentación de Jose Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla."/>
+                <meta name="description" content="Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla."/>
                 <meta name="keywords" content="Desarrollo de software, Desarrollo de aplicaciones web, Aplicaciones web, Desarrollo web, Páginas web, Desarrollo de páginas web, Precios de páginas web,  Panes de páginas web, Tarjeta presentación de José Enrique Zempoaltecatl Moyotl, José Enrique Zempoaltecatl Moyotl, Sitios web" />
                 
                 <meta name="og:type" content="WebSite" />
                 <meta name="og:title" content="Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl" />
-                <meta name="og:description" content="Tarjeta de presentación de Jose Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla." />
+                <meta name="og:description" content="Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla." />
                 <meta name="og:url" content={process.env.canonicalLink} />
                 <meta name="og:site_name" content={process.env.webSiteName} />
                 <meta name="og:image" content={process.env.canonicalLink + 'images/logo/image-codes-line.jpg' } />
@@ -23,19 +24,15 @@ export default function Index () {
                         "@type": "Person",
                         "name": "José Enrique Zempoaltecatl Moyotl"
                     },
-                    "description": "Tarjeta de presentación de Jose Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla."
+                    "description": "Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla."
                 })}} />
             </Head>
-
-            {/* Tarjeta de presentación principal */}
 
             <div className="simple-primary-slate">
                 <h1 className="text-title content-mb-xm">Increíble contenido digital</h1>
                 <p className="text-description content-mb-xm">José Enrique Zempoaltecatl Moyotl</p>
                 <p className="text-content content-text-justify">Ingeniero en <span className="text-content-highlighted">Tecnologías de la información</span> por <span className="text-content-highlighted">Universidad Politécnica de Puebla</span>, el desarrollo de software es una rama de mi carrera y uno de mis pasatiempos favoritos, me agrada realizar proyectos propios y para empresas, empleando <span className="text-content-highlighted">diferentes tecnologías</span>, sin salir de las que realmente se requieren, dan <span className="text-content-highlighted">soluciones óptimas</span> y se <span className="text-content-highlighted">ajustan al presupuesto</span> presentado.</p>
             </div>
-
-            {/* Herramientas de agrado */}
 
             <p className="text-subtitle-primary content-my-xb">Herramientas de agrado</p>
 
@@ -101,8 +98,6 @@ export default function Index () {
                     </div>
                 </div>
             </div>
-            
-            {/* Linea de tiempo, escuela y trabajo */}
 
             <div className="grid-layout-content-md content-mt-xb">
                 <div>
@@ -156,4 +151,5 @@ export default function Index () {
             </div>
         </>
     )
+
 }

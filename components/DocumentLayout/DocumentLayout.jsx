@@ -1,8 +1,29 @@
+import { useEffect } from 'react'
 import Head from 'next/head'
 import PresentationCard from '../PresentationCard/PresentationCard'
 import LateralMenu from '../LateralMenu/LateralMenu'
 
 export default function DocumentLayout({ children }) {
+
+    useEffect (() => {
+        const buttonso = document.querySelectorAll(".modal-activator-button")
+        const buttonsc = document.querySelectorAll(".modal-disabling-button")
+
+        buttonso.forEach (button => {
+            button.addEventListener("click", function () {
+                const modal = document.getElementById(this.getAttribute("data-target"))
+                modal.classList.toggle("modal-hidden")
+            })
+        })
+
+        buttonsc.forEach (button => {
+            button.addEventListener("click", function () {
+                const modal = document.getElementById(this.getAttribute("data-target"))
+                modal.classList.add("modal-hidden")
+            })
+        })
+    }, [children])
+
     return (
         <>
             <Head>
@@ -71,8 +92,6 @@ export default function DocumentLayout({ children }) {
                 })}} />
 
                 <meta name="google-site-verification" content="gzPUwKxJdQh7OpY0vihIK4GXSGHgjCy8HfyVZpeNOsg" />
-
-                <script src="/static/html-events/html-events.js" />
             </Head>
             <div className="wrap-template">
                 <section className="wrap-template-target">
