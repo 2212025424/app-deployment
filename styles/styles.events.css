@@ -1,6 +1,6 @@
 @media screen and (max-width: 950px) {
   .wrap-template {
-    grid-template-columns: 1fr 70px;
+    grid-template-columns: 1fr 60px;
   }
 
   .wrap-template-target {
@@ -12,6 +12,7 @@
   :root {
     --content-grid-sm: 110px;
   }
+
   .wrap-template-wrap {
     padding: 0px 5px 0px;
   }

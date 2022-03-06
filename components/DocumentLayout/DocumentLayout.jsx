@@ -8,12 +8,12 @@ export default function DocumentLayout({ children }) {
     useEffect (() => {
         const buttonso = document.querySelectorAll(".modal-activator-button")
         const buttonsc = document.querySelectorAll(".modal-disabling-button")
-        const buttonmenu = document.querySelector(".lateral-menu-activator")
-        const lateralmenu = document.querySelector(".lateral-menu")
+        const buttondarkmode = document.querySelector(".dark-mode-activator")
 
-        buttonmenu.addEventListener("click", function () {
-            lateralmenu.classList.toggle("lateral-menu--show-menu")
-            console.log("Se ha pulsado...")
+        buttondarkmode.addEventListener("click", function () {
+            document.body.classList.toggle("show-dark-mode")
+            console.log("Se ha toogleado..")
+            console.log(document.body)
         })
 
         buttonso.forEach (button => {

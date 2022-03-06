@@ -41,6 +41,18 @@
   --rounded: 3px;
 }
 
+body.show-dark-mode {
+  --main-app-color: rgb(255, 193, 34);
+  --on-main-app-color: rgb(255, 255, 255);
+  --content-color-dark: rgb(230, 230, 230);
+  --content-color-light: rgb(160, 160, 160);
+  --content-bg-color-primary: rgb(58, 59, 60);
+  --content-bg-color-secondary: rgb(36, 37, 38);
+  --content-bg-color-tertiary: rgb(24, 25, 26);
+  --content-bg-transparency: rgba(255, 255, 255, 0.5);
+  --screen-bg-color: rgb(24, 25, 26);
+}
+
 @font-face {
   font-family: "Poppins";
   src: url("../public/fonts/Poppins/Poppins-Regular.ttf");

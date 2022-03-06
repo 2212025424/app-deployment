@@ -4,7 +4,7 @@ export default function LateralMenu () {
     return (
         <div className="lateral-menu">
             <div className="lateral-menu-head">
-                <span className="wrap-social-icon lateral-menu-activator" alt="Boton para activar y desactivar modo obscuro" title="Boton para activar y desactivar modo obscuro">
+                <span className="wrap-social-icon dark-mode-activator" alt="Boton para activar y desactivar modo obscuro" title="Boton para activar y desactivar modo obscuro">
                     <i className="social-icon icon-moon-inv"></i>
                 </span>
             </div>
