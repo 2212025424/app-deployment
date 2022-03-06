@@ -2,17 +2,17 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Modal from '../components/SimpleModal/SimpleModal'
 
-export default function desarrollo () {
+export default function Develop () {
 
     return (
         <>
             <Head>
-                <title>Desarrollo web | {process.env.webSiteName}</title>
+                <title>Desarrollo web en Puebla | {process.env.webSiteName}</title>
                 <meta name="description" content="Le ofrecemos paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades."/>
                 <meta name="keywords" content="Desarrollo de software, Desarrollo de aplicaciones web, Aplicaciones web, Desarrollo web, Páginas web, Desarrollo de páginas web, Precios de páginas web,  Panes de páginas web, Tarjeta presentación de José Enrique Zempoaltecatl Moyotl, José Enrique Zempoaltecatl Moyotl, Sitios web" />
                 
                 <meta name="og:type" content="WebSite" />
-                <meta name="og:title" content={'Desarrollo web | '+process.env.webSiteName} />
+                <meta name="og:title" content={'Desarrollo web en Puebla | '+process.env.webSiteName} />
                 <meta name="og:description" content="Le ofrecemos paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades." />
                 <meta name="og:url" content={process.env.canonicalLink} />
                 <meta name="og:site_name" content={process.env.webSiteName} />

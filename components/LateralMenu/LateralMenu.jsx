@@ -4,9 +4,9 @@ export default function LateralMenu () {
     return (
         <div className="lateral-menu">
             <div className="lateral-menu-head">
-                <a href="#" target="_blank" className="wrap-social-icon" alt="Boton para abrir y cerrar menú lateral" title="Boton para abrir y cerrar menú lateral">
-                    <i className="social-icon icon-menu"></i>
-                </a>
+                <span className="wrap-social-icon lateral-menu-activator" alt="Boton para activar y desactivar modo obscuro" title="Boton para activar y desactivar modo obscuro">
+                    <i className="social-icon icon-moon-inv"></i>
+                </span>
             </div>
             <div className="hidden-scroll-bar lateral-menu-body">
                 <Link href="/" alt="Enlace a tarjeta de presentación" title="Enlace a tarjeta de presentación">
@@ -14,12 +14,12 @@ export default function LateralMenu () {
                         <i className="social-icon icon-user"></i>
                     </a>
                 </Link>
-                <Link href="/desarrollo-web">
+                <Link href="/web-development">
                     <a className="wrap-social-icon content-my-xm" alt="Enlace a paquetes de desarrollo web" title="Enlace a paquetes de desarrollo web">
                         <i className="social-icon icon-basket"></i>
                     </a>
                 </Link>
-                <Link href="/">
+                <Link href="/developed-projects">
                     <a className="wrap-social-icon content-my-xm" alt="Enlace a portafolio de proyectos" title="Enlace a portafolio de proyectos">
                         <i className="social-icon icon-folder"></i>
                     </a>
@@ -31,9 +31,6 @@ export default function LateralMenu () {
                 </Link>
                 <a href="#" target="_blank" className="wrap-social-icon content-my-xm" alt="Boton para compartir sitio" title="Boton para compartir sitio">
                     <i className="social-icon icon-share"></i>
-                </a>
-                <a href="#" target="_blank" className="wrap-social-icon content-my-xm" alt="Boton para activar o desactivar modo obscuro" title="Boton para activar o desactivar modo obscuro">
-                    <i className="social-icon icon-moon-inv"></i>
                 </a>
             </div>
         </div>

@@ -1,0 +1,15 @@
+@media screen and (max-width: 950px) {
+  .wrap-template {
+    grid-template-columns: 1fr 70px;
+  }
+
+  .wrap-template-target {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .wrap-template-wrap {
+    padding: 0px 5px 0px;
+  }
+}
