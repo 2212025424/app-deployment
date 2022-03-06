@@ -8,15 +8,19 @@ export default function Develop () {
         <>
             <Head>
                 <title>Desarrollo web en Puebla | {process.env.webSiteName}</title>
-                <meta name="description" content="Le ofrecemos paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades."/>
-                <meta name="keywords" content="Desarrollo de software, Desarrollo de aplicaciones web, Aplicaciones web, Desarrollo web, Páginas web, Desarrollo de páginas web, Precios de páginas web,  Panes de páginas web, Tarjeta presentación de José Enrique Zempoaltecatl Moyotl, José Enrique Zempoaltecatl Moyotl, Sitios web" />
+                <meta name="description" content={`${process.env.webSiteName} le ofrece paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades.`} />
                 
                 <meta name="og:type" content="WebSite" />
-                <meta name="og:title" content={'Desarrollo web en Puebla | '+process.env.webSiteName} />
-                <meta name="og:description" content="Le ofrecemos paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades." />
+                <meta name="og:title" content={`Desarrollo web en Puebla | ${process.env.webSiteName}`} />
+                <meta name="og:description" content={`${process.env.webSiteName} le ofrece paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades.`} />
                 <meta name="og:url" content={process.env.canonicalLink} />
                 <meta name="og:site_name" content={process.env.webSiteName} />
-                <meta name="og:image" content={process.env.canonicalLink + 'images/logo/image-codes-line.jpg' } />
+
+                <meta name="twitter:title" content={`Desarrollo web en Puebla | ${process.env.webSiteName}`} />
+                <meta name="twitter:description" content={`${process.env.webSiteName} le ofrece paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades.`} />
+                
+                <meta name="canonical" content={process.env.canonicalLink + 'web-development/'} />
+                <meta name="alternate" content={process.env.canonicalLink + 'web-development/'} />
 
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
                     "@context": "https://schema.org/",
@@ -25,7 +29,7 @@ export default function Develop () {
                         "@type": "Person",
                         "name": "José Enrique Zempoaltecatl Moyotl"
                     },
-                    "description": "Le ofrecemos paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades."
+                    "description": process.env.webSiteName + " le ofrece paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades."
                 })}} />
             </Head>
 

@@ -7,15 +7,19 @@ export default function Index () {
         <>
             <Head>
                 <title>Tarjeta de presentación de José Enrique | {process.env.webSiteName}</title>
-                <meta name="description" content="Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla."/>
-                <meta name="keywords" content="Desarrollo de software, Desarrollo de aplicaciones web, Aplicaciones web, Desarrollo web, Páginas web, Desarrollo de páginas web, Precios de páginas web,  Panes de páginas web, Tarjeta presentación de José Enrique Zempoaltecatl Moyotl, José Enrique Zempoaltecatl Moyotl, Sitios web" />
+                <meta name="description" content={`${process.env.webSiteName} es una empresa que ha desarrollado diferentes proyectos web propios y para empresas externas, los cuales ha entregado en tiempo y forma, pero sobre todo que genern impacto empresarial.`} />
                 
                 <meta name="og:type" content="WebSite" />
-                <meta name="og:title" content="Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl" />
-                <meta name="og:description" content="Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla." />
+                <meta name="og:title" content={`Tarjeta de presentación de José Enrique | ${process.env.webSiteName}`} />
+                <meta name="og:description" content={`Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla.`} />
                 <meta name="og:url" content={process.env.canonicalLink} />
                 <meta name="og:site_name" content={process.env.webSiteName} />
-                <meta name="og:image" content={process.env.canonicalLink + 'images/logo/image-codes-line.jpg' } />
+
+                <meta name="twitter:title" content={`Tarjeta de presentación de José Enrique | ${process.env.webSiteName}`} />
+                <meta name="twitter:description" content={`Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla.`} />
+                
+                <meta name="canonical" content={process.env.canonicalLink} />
+                <meta name="alternate" content={process.env.canonicalLink} />
 
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
                     "@context": "https://schema.org/",
