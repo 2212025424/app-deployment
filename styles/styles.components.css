@@ -10,7 +10,7 @@ body {
   width: 98%;
   display: grid;
   gap: var(--space-md);
-  grid-template-columns: 260px 1fr 70px;
+  grid-template-columns: 260px 1fr 60px;
   margin: var(--space-md) auto;
   max-width: var(--maximun-width-document);
 }
@@ -53,7 +53,7 @@ body {
   height: calc(100vh - (2 * var(--space-md)));
   width: 100%;
   display: grid;
-  grid-template-rows: 70px 1fr;
+  grid-template-rows: 60px 1fr;
   box-shadow: var(--general-shadow);
   background-color: var(--content-bg-color-secondary);
 }
