@@ -12,8 +12,6 @@ export default function DocumentLayout({ children }) {
 
         buttondarkmode.addEventListener("click", function () {
             document.body.classList.toggle("show-dark-mode")
-            console.log("Se ha toogleado..")
-            console.log(document.body)
         })
 
         buttonso.forEach (button => {
