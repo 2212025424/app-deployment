@@ -50,7 +50,7 @@ body.show-dark-mode {
   --content-bg-color-secondary: rgb(38, 39, 40);
   --content-bg-color-tertiary: rgb(28, 29, 30);
   --content-bg-transparency: rgba(255, 255, 255, 0.5);
-  --screen-bg-color: rgb(24, 25, 26);
+  --screen-bg-color: rgb(28, 29, 30);
 }
 
 @font-face {

@@ -8,11 +8,6 @@ export default function DocumentLayout({ children }) {
     useEffect (() => {
         const buttonso = document.querySelectorAll(".modal-activator-button")
         const buttonsc = document.querySelectorAll(".modal-disabling-button")
-        const buttondarkmode = document.querySelector(".dark-mode-activator")
-
-        buttondarkmode.addEventListener("click", function () {
-            document.body.classList.toggle("show-dark-mode")
-        })
 
         buttonso.forEach (button => {
             button.addEventListener("click", function () {
@@ -97,6 +92,7 @@ export default function DocumentLayout({ children }) {
                 })}} />
 
                 <meta name="google-site-verification" content="gzPUwKxJdQh7OpY0vihIK4GXSGHgjCy8HfyVZpeNOsg" />
+                <script src="/static/html-events/html-events.js" />
             </Head>
             <div className="wrap-template">
                 <section className="wrap-template-target">
