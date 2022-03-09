@@ -187,7 +187,6 @@ body {
 }
 
 .social-icon {
-  cursor: pointer;
   color: var(--content-color-dark);
   font-size: var(--text-xg);
 }
@@ -404,8 +403,8 @@ body {
 
 .modal-disabling-button {
   position: absolute;
-  top: 5px;
-  right: 5px;
+  top: var(--space-sm);
+  right: var(--space-sm);
   cursor: pointer;
   width: 25px;
   height: 25px;
@@ -417,6 +416,7 @@ body {
   transform: rotate(45deg);
   user-select: none;
   color: white;
+  z-index: 999;
   background-color: red;
   box-shadow: var(--general-shadow);
 }

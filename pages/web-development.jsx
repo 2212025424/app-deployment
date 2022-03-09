@@ -102,7 +102,7 @@ export default function Develop () {
                     <p className="text-content content-mb-xm">Testimonios max. 10</p>
                     <p className="text-content content-mb-xm">Novedades max. 10</p>
                     <p className="text-content content-mb-bg">Galería de imágenes max. 10</p>
-                    <span className="primary-button modal-activator-button" data-target="simple-modal-01">Ves detalles</span>
+                    <span className="primary-button modal-activator-button" data-target="simple-modal-01">Ver detalles</span>
                 </div>
                 <div className="simple-primary-slate content-text-center">
                     <h3 className="text-subtitle-secondary">Empresarial</h3>

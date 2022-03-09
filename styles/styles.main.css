@@ -65,6 +65,7 @@ body.show-dark-mode {
 }
 
 a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   text-decoration: none;
   color: rgb(16, 141, 230);
 }
