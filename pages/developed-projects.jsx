@@ -23,9 +23,7 @@ export default function Developed () {
                 <meta name="alternate" content={process.env.canonicalLink + 'developed-projects/'} />
             </Head>
 
-            <div className="simple-primary-slate content-mb-xb">
-                <h1 className="text-title content-text-center">Proyectos web desarrollados</h1>
-            </div>
+            <p className="text-subtitle-primary content-mb-xb">Proyectos web desarrollados</p>
 
             <div className="grid-layout-content-md">
                 <div className="simple-primary-slate">
