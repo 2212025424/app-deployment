@@ -33,7 +33,13 @@ export default function Develop () {
                 })}} />
             </Head>
 
-            <p className="text-subtitle-primary content-mb-xb">Todos los paquetes incluyen</p>
+            <div className="simple-primary-slate">
+                <h1 className="text-title content-mb-xm">Servicio de desarrollo web</h1>
+                <p className="text-description content-mb-xm">José Enrique Zempoaltecatl Moyotl</p>
+                <p className="text-content content-text-justify">Tener presencia en internet es clave para lograr un mayor alcance de oferta y demanda, {process.env.webSiteName} ofrece desarrollo web como servicio, presenta diferentes planes que bien pueden adaptarse a las necesidades para hacer crecer su perfil, negocio o empresa.</p>
+            </div>
+
+            <p className="text-subtitle-primary content-my-xb">Todos los paquetes incluyen</p>
 
             <div className="grid-layout-content-md">
                 <div className="simple-primary-slate">
@@ -86,7 +92,7 @@ export default function Develop () {
                 <div className="simple-primary-slate content-text-center">
                     <h3 className="text-subtitle-secondary">Emprendedor</h3>
                     <p className="text-description content-mt-sm">Ideal cuando una empresa o negocio requiere comenzar a tener presencia en internet</p>
-                    <h4 className="text-primary content-my-md">$ 4,000</h4>
+                    <h4 className="text-primary content-my-md">$ 5,500</h4>
                     <p className="text-content content-mb-xm">1 única sección</p>
                     <p className="text-content content-mb-xm">Hosting por un año</p>
                     <p className="text-content content-mb-xm">Dominio por un año</p>
@@ -101,7 +107,7 @@ export default function Develop () {
                 <div className="simple-primary-slate content-text-center">
                     <h3 className="text-subtitle-secondary">Empresarial</h3>
                     <p className="text-description content-mt-sm">Ideal para dar a conocer su empresa de manera profesional y ofertar productos o servicios</p>
-                    <h4 className="text-primary content-my-md">$ 7,500</h4>
+                    <h4 className="text-primary content-my-md">$ 8,000</h4>
                     <p className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> Hasta 5 secciones</p>
                     <p className="text-content content-mb-xm">Hosting y dominio por un año</p>
                     <p className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> Formulario de contacto</p>
@@ -116,7 +122,7 @@ export default function Develop () {
                 <div className="simple-primary-slate content-text-center">
                     <h3 className="text-subtitle-secondary">Gestor de contenido</h3>
                     <p className="text-description content-mt-sm">Ideal para empresas o negocios que requieren modificar contenido de forma constante</p>
-                    <h4 className="text-primary content-my-md">$ 12,000</h4>
+                    <h4 className="text-primary content-my-md">$ 13,000</h4>
                     <p className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> Hasta 10 secciones</p>
                     <p className="text-content content-mb-xm">Hosting y dominio por un año</p>
                     <p className="text-content content-mb-xm">Formulario de contacto</p>
