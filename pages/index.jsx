@@ -33,7 +33,7 @@ export default function Index () {
             </Head>
 
             <div className="simple-primary-slate">
-                <h1 className="text-title content-mb-xm">Increíble contenido digital</h1>
+                <h1 className="text-title content-mb-xm">{process.env.webSiteName} contenido digital</h1>
                 <p className="text-description content-mb-xm">José Enrique Zempoaltecatl Moyotl</p>
                 <p className="text-content content-text-justify">Ingeniero en <span className="text-content-highlighted">Tecnologías de la información</span> por <span className="text-content-highlighted">Universidad Politécnica de Puebla</span>, el desarrollo de software es una rama de mi carrera y uno de mis pasatiempos favoritos, me agrada realizar proyectos propios y para empresas, empleando <span className="text-content-highlighted">diferentes tecnologías</span>, sin salir de las que realmente se requieren, dan <span className="text-content-highlighted">soluciones óptimas</span> y se <span className="text-content-highlighted">ajustan al presupuesto</span> presentado.</p>
             </div>

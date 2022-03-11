@@ -23,34 +23,41 @@ export default function Developed () {
                 <meta name="alternate" content={process.env.canonicalLink + 'developed-projects/'} />
             </Head>
 
-            <p className="text-subtitle-primary content-mb-xb">Proyectos web desarrollados</p>
+            <div className="simple-primary-slate">
+                <h1 className="text-title content-mb-xm">Proyectos web desarrollados</h1>
+                <p className="text-description content-mb-xm">{process.env.webSiteName}: José Enrique Zempoaltecatl Moyotl</p>
+                <p className="text-content content-text-justify">Los proyectos en los que {process.env.webSiteName} ha tenido la oportunidad de participar son propios y para empresas o negocios externos, los cuales han generado impacto positivo en los usuarios finales y por ende a nuestro clientes.</p>
+            </div>
+
+            <p className="text-subtitle-primary content-my-xb">Repositorio de proyectos</p>
 
             <div className="grid-layout-content-md">
-                <div className="simple-primary-slate">
-                    <Image className="modal-activator-button content-pointer" data-target="simple-modal-01" src="/images/proyects/proyect-e-consulta.com.png" width="820" height="460" layout="responsive" alt="Imagen de portada de proyecto e-consulta.com" title="Imagen de portada de proyecto e-consulta.com"/>
-                    <h3 className="content-text-center content-my-xm"><a className="text-subtitle-primary" href="https://e-consulta.com/" target="_blank">e-consulta.com</a></h3>
-                    <p className="text-content content-text-justify content-mb-xm"><span className="text-description">Cliente:</span> Periódico digital e-consulta.</p>
+                <div className="simple-primary-slate content-pointer modal-activator-button" data-target="simple-modal-01">
+                    <p className="text-subtitle-primary content-text-center">Portal digital e-consulta</p>
+                    <p className="text-description content-text-center content-mb-sm">Proyecto externo</p>
+                    <p className="text-content content-text-justify content-mb-sm">Desarrollar un portal web de noticias para dispositivos de escritorio que cumpla con los criterios de calidad de la comunidad de google.</p>
                     <p className="text-content content-text-justify content-mb-xm"><span className="text-description">Fecha inicio:</span> 01 de Septiembre, 2021.</p>
                     <p className="text-content content-text-justify"><span className="text-description">Fecha termino:</span> 05 de Diciembre, 2021.</p>
                 </div>
-                <div className="simple-primary-slate">
-                    <Image className="modal-activator-button content-pointer" data-target="simple-modal-01" src="/images/proyects/proyect-e-consulta.com.png" width="820" height="460" layout="responsive" alt="Imagen de portada de proyecto e-consulta.com" title="Imagen de portada de proyecto e-consulta.com"/>
-                    <h3 className="content-text-center content-my-xm"><a className="text-subtitle-primary" href="https://e-consulta.com/" target="_blank">e-consulta.com</a></h3>
-                    <p className="text-content content-text-justify content-mb-xm"><span className="text-description">Cliente:</span> Periódico digital e-consulta.</p>
+                <div className="simple-primary-slate content-pointer modal-activator-button" data-target="simple-modal-01">
+                    <p className="text-subtitle-primary content-text-center">Portal digital e-consulta</p>
+                    <p className="text-description content-text-center content-mb-sm">Proyecto externo</p>
+                    <p className="text-content content-text-justify content-mb-sm">Desarrollar un portal web de noticias para dispositivos de escritorio que cumpla con los criterios de calidad de la comunidad de google.</p>
                     <p className="text-content content-text-justify content-mb-xm"><span className="text-description">Fecha inicio:</span> 01 de Septiembre, 2021.</p>
                     <p className="text-content content-text-justify"><span className="text-description">Fecha termino:</span> 05 de Diciembre, 2021.</p>
                 </div>
-                <div className="simple-primary-slate">
-                    <Image className="modal-activator-button content-pointer" data-target="simple-modal-01" src="/images/proyects/proyect-e-consulta.com.png" width="820" height="460" layout="responsive" alt="Imagen de portada de proyecto e-consulta.com" title="Imagen de portada de proyecto e-consulta.com"/>
-                    <h3 className="content-text-center content-my-xm"><a className="text-subtitle-primary" href="https://e-consulta.com/" target="_blank">e-consulta.com</a></h3>
-                    <p className="text-content content-text-justify content-mb-xm"><span className="text-description">Cliente:</span> Periódico digital e-consulta.</p>
+                <div className="simple-primary-slate content-pointer modal-activator-button" data-target="simple-modal-01">
+                    <p className="text-subtitle-primary content-text-center">Portal digital e-consulta</p>
+                    <p className="text-description content-text-center content-mb-sm">Proyecto externo</p>
+                    <p className="text-content content-text-justify content-mb-sm">Desarrollar un portal web de noticias para dispositivos de escritorio que cumpla con los criterios de calidad de la comunidad de google.</p>
                     <p className="text-content content-text-justify content-mb-xm"><span className="text-description">Fecha inicio:</span> 01 de Septiembre, 2021.</p>
                     <p className="text-content content-text-justify"><span className="text-description">Fecha termino:</span> 05 de Diciembre, 2021.</p>
                 </div>
             </div>
 
             <Modal identifier="simple-modal-01">
-                <Image src="/images/proyects/proyect-e-consulta.com.png" width="820" height="460" layout="responsive" alt="Imagen de portada de proyecto e-consulta.com" title="Imagen de portada de proyecto e-consulta.com"/>    
+                <a className="text-title" href="https://e-consulta.com/" target="_blank">Visita: e-consulta.com</a>
+                <div className="content-mt-md"><Image src="/images/proyects/proyect-e-consulta.com.png" width="820" height="460" layout="responsive" alt="Imagen de portada de proyecto e-consulta.com" title="Imagen de portada de proyecto e-consulta.com"/>    </div>
             </Modal>
         </>
     )
