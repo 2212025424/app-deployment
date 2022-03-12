@@ -6,8 +6,8 @@ export default function LateralMenu () {
         <div className="lateral-menu">
             <div className="lateral-menu-head">
                 <div className="image-responsive-md">
-                    <Link href="/"><a>
-                        <Image src="/images/logo/image-codes-line.svg" width="160" height="160" alt={`Logo secundario de ${process.env.companyName}`} title={`Logo secundario de ${process.env.companyName}`}/>
+                    <Link href="/"><a className="content-absolute-center">
+                        <Image src="/images/logo/image-codes-line.svg" width="50" height="50" alt={`Logo secundario de ${process.env.companyName}`} title={`Logo secundario de ${process.env.companyName}`}/>
                     </a></Link>
                 </div>
             </div>
@@ -20,11 +20,6 @@ export default function LateralMenu () {
                 <Link href="/developed-projects">
                     <a className="wrap-social-icon content-my-xm" alt="Enlace a portafolio de proyectos" title="Enlace a portafolio de proyectos">
                         <i className="social-icon icon-folder"></i>
-                    </a>
-                </Link>
-                <Link href="/">
-                    <a className="wrap-social-icon content-my-xm" alt="Enlace a blog comunitario" title="Enlace a blog comunitario">
-                        <i className="social-icon icon-comment"></i>
                     </a>
                 </Link>
                 <Link href="/author" alt="Enlace a tarjeta de presentación" title="Enlace a tarjeta de presentación">
