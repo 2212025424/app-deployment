@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Head from 'next/head'
 
-export default function Index () {
+export default function Author () {
 
     return (
         <>
@@ -32,12 +32,10 @@ export default function Index () {
                 })}} />
             </Head>
 
-            <div className="content-float-left"><Image src="/images/logo/image-codes-line.svg" width="160" height="160" alt={`Logo principal de ${process.env.companyName}`} title={`Logo principal de ${process.env.companyName}`}/></div>
-            
             <div className="simple-primary-slate">
-                <h1 className="text-title">{process.env.companyName}</h1>
-                <p className="text-description content-mb-bg">Increíble contenido digital</p>
-                <p className="text-content content-text-justify">Es una empresa con perfil digital, misma que brinda servicios de tecnologías de la información como desarrollo web para emprendedores, negocios estables, empresas pequeñas y grandes, con la finalidad de generar impacto positivo en el mundo de la tecnología.</p>
+                <h1 className="text-title content-mb-xm">Tarjeta de presentación digital</h1>
+                <p className="text-description content-mb-xm">José Enrique Zempoaltecatl Moyotl</p>
+                <p className="text-content content-text-justify">Ingeniero en <span className="text-content-highlighted">Tecnologías de la información</span> por <span className="text-content-highlighted">Universidad Politécnica de Puebla</span>, el desarrollo de software es una rama de mi carrera y uno de mis pasatiempos favoritos, me agrada realizar proyectos propios y para empresas, empleando <span className="text-content-highlighted">diferentes tecnologías</span>, sin salir de las que realmente se requieren, dan <span className="text-content-highlighted">soluciones óptimas</span> y se <span className="text-content-highlighted">ajustan al presupuesto</span> presentado.</p>
             </div>
 
             <p className="text-subtitle-primary content-my-xb">Herramientas de agrado</p>

@@ -106,6 +106,9 @@
 .content-float-rigth {
   float: right;
 }
+.content-float-left {
+  float: left;
+}
 
 .content-font-bold {
   font-weight: bolder;

@@ -32,21 +32,21 @@ export default function DocumentLayout({ children }) {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <link rel="shortcut icon" href="/images/logo/image-codes-line.svg"></link>
                 
-                <title>Desarrollo web | {process.env.webSiteName}</title>
-                <meta name="description" content={`${process.env.webSiteName} es una empresa de desarrollo web, misma que es capas de apoyarlo con proyectos en páginas, sitio y aplicaciones web complejas básicas y complejas con tecnología que se adapte a sus necesidades y presupuesto.`} />
-                <meta name="keywords" content={`${process.env.webSiteName}, Desarrollo de software, Desarrollo de aplicaciones, Páginas web, Sitios web, Aplicaciones web, Desarrollo web, Precios de páginas web, Precios de sitios web, Planes de páginas web, Planes de sitios web, Planes de páginas web, José Enrique Zempoaltecatl Moyotl`} />
-                <meta name="author" content={process.env.webSiteName} />
+                <title>Desarrollo web | {process.env.companyName}</title>
+                <meta name="description" content={`${process.env.companyName} es una empresa de desarrollo web, misma que es capas de apoyarlo con proyectos en páginas, sitio y aplicaciones web complejas básicas y complejas con tecnología que se adapte a sus necesidades y presupuesto.`} />
+                <meta name="keywords" content={`${process.env.companyName}, Desarrollo de software, Desarrollo de aplicaciones, Páginas web, Sitios web, Aplicaciones web, Desarrollo web, Precios de páginas web, Precios de sitios web, Planes de páginas web, Planes de sitios web, Planes de páginas web, José Enrique Zempoaltecatl Moyotl`} />
+                <meta name="author" content={process.env.companyName} />
                 <meta name="copyright" content="José Enrique Zempoaltecatl Moyotl" />
                 
                 <meta name="og:type" content="WebSite" />
-                <meta name="og:title" content={`Desarrollo web | ${process.env.webSiteName}`} />
-                <meta name="og:description" content={`${process.env.webSiteName} es una empresa de desarrollo web, misma que es capas de apoyarlo con proyectos en páginas, sitio y aplicaciones web complejas básicas y complejas con tecnología que se adapte a sus necesidades y presupuesto.`} />
+                <meta name="og:title" content={`Desarrollo web | ${process.env.companyName}`} />
+                <meta name="og:description" content={`${process.env.companyName} es una empresa de desarrollo web, misma que es capas de apoyarlo con proyectos en páginas, sitio y aplicaciones web complejas básicas y complejas con tecnología que se adapte a sus necesidades y presupuesto.`} />
                 <meta name="og:image" content={process.env.canonicalLink + '/images/logo/image-codes-line.jpg'} />
                 <meta name="og:url" content={process.env.canonicalLink} />
-                <meta name="og:site_name" content={process.env.webSiteName} />
+                <meta name="og:site_name" content={process.env.companyName} />
 
-                <meta name="twitter:title" content={`Desarrollo web | ${process.env.webSiteName}`} />
-                <meta name="twitter:description" content={`${process.env.webSiteName} es una empresa de desarrollo web, misma que es capas de apoyarlo con proyectos en páginas, sitio y aplicaciones web complejas básicas y complejas con tecnología que se adapte a sus necesidades y presupuesto.`} />
+                <meta name="twitter:title" content={`Desarrollo web | ${process.env.companyName}`} />
+                <meta name="twitter:description" content={`${process.env.companyName} es una empresa de desarrollo web, misma que es capas de apoyarlo con proyectos en páginas, sitio y aplicaciones web complejas básicas y complejas con tecnología que se adapte a sus necesidades y presupuesto.`} />
                 <meta name="twitter:image" content={process.env.canonicalLink + '/images/logo/image-codes-line.jpg'} />
                 <meta name="twitter:site" content="@kike_zempo" />
                 <meta name="twitter:creator" content="@kike_zempo" />
@@ -60,9 +60,9 @@ export default function DocumentLayout({ children }) {
                     "@context": "https://schema.org/",
                     "@type": "Corporation",
                     "url": process.env.canonicalLink,
-                    "name": process.env.webSiteName,
-                    "legalName": process.env.webSiteName,
-                    "description": process.env.webSiteName + ' es una empresa de desarrollo web, misma que es capas de apoyarlo con proyectos en páginas, sitio y aplicaciones web complejas básicas y complejas con tecnología que se adapte a sus necesidades y presupuesto.',
+                    "name": process.env.companyName,
+                    "legalName": process.env.companyName,
+                    "description": process.env.companyName + ' es una empresa de desarrollo web, misma que es capas de apoyarlo con proyectos en páginas, sitio y aplicaciones web complejas básicas y complejas con tecnología que se adapte a sus necesidades y presupuesto.',
                     "image": process.env.canonicalLink + 'images/logo/image-codes-line.jpg',
                     "alumi": {
                         "@type": "Person",
@@ -78,7 +78,7 @@ export default function DocumentLayout({ children }) {
                     "@context": "https://schema.org/",
                     "@type": "Organization",
                     "@id": process.env.canonicalLink,
-                    "name": process.env.webSiteName,
+                    "name": process.env.companyName,
                     "url": process.env.canonicalLink,
                     "logo": process.env.canonicalLink + 'images/logo/image-codes-line.jpg',
                     "alumi": {

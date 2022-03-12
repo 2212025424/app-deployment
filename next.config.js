@@ -16,7 +16,7 @@ module.exports = withPlugins(
         },
         env: {
             canonicalLink: "https://codes-line.vercel.app/",
-            webSiteName: "CodesLine"
+            companyName: "INCODI"
         }
     }
 )

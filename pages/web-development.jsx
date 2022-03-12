@@ -7,17 +7,17 @@ export default function Develop () {
     return (
         <>
             <Head>
-                <title>Desarrollo web en Puebla | {process.env.webSiteName}</title>
-                <meta name="description" content={`${process.env.webSiteName} le ofrece paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades.`} />
+                <title>Desarrollo web en Puebla | {process.env.companyName}</title>
+                <meta name="description" content={`${process.env.companyName} le ofrece paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades.`} />
                 
                 <meta name="og:type" content="WebSite" />
-                <meta name="og:title" content={`Desarrollo web en Puebla | ${process.env.webSiteName}`} />
-                <meta name="og:description" content={`${process.env.webSiteName} le ofrece paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades.`} />
+                <meta name="og:title" content={`Desarrollo web en Puebla | ${process.env.companyName}`} />
+                <meta name="og:description" content={`${process.env.companyName} le ofrece paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades.`} />
                 <meta name="og:url" content={process.env.canonicalLink} />
-                <meta name="og:site_name" content={process.env.webSiteName} />
+                <meta name="og:site_name" content={process.env.companyName} />
 
-                <meta name="twitter:title" content={`Desarrollo web en Puebla | ${process.env.webSiteName}`} />
-                <meta name="twitter:description" content={`${process.env.webSiteName} le ofrece paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades.`} />
+                <meta name="twitter:title" content={`Desarrollo web en Puebla | ${process.env.companyName}`} />
+                <meta name="twitter:description" content={`${process.env.companyName} le ofrece paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades.`} />
                 
                 <meta name="canonical" content={process.env.canonicalLink + 'web-development/'} />
                 <meta name="alternate" content={process.env.canonicalLink + 'web-development/'} />
@@ -29,14 +29,14 @@ export default function Develop () {
                         "@type": "Person",
                         "name": "José Enrique Zempoaltecatl Moyotl"
                     },
-                    "description": process.env.webSiteName + " le ofrece paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades."
+                    "description": process.env.companyName + " le ofrece paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades."
                 })}} />
             </Head>
 
             <div className="simple-primary-slate">
                 <h1 className="text-title content-mb-xm">Servicio de desarrollo web</h1>
-                <p className="text-description content-mb-xm">{process.env.webSiteName}: José Enrique Zempoaltecatl Moyotl</p>
-                <p className="text-content content-text-justify">Tener presencia en internet es clave para lograr un mayor alcance de oferta y demanda, {process.env.webSiteName} ofrece desarrollo web como servicio, presenta diferentes planes que bien pueden adaptarse a las necesidades para hacer crecer su perfil, negocio o empresa.</p>
+                <p className="text-description content-mb-xm">{process.env.companyName}: José Enrique Zempoaltecatl Moyotl</p>
+                <p className="text-content content-text-justify">Tener presencia en internet es clave para lograr un mayor alcance de oferta y demanda, {process.env.companyName} ofrece desarrollo web como servicio, presenta diferentes planes que bien pueden adaptarse a las necesidades para hacer crecer su perfil, negocio o empresa.</p>
             </div>
 
             <p className="text-subtitle-primary content-my-xb">Todos los paquetes incluyen</p>

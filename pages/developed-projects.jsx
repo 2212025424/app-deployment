@@ -7,17 +7,17 @@ export default function Developed () {
     return (
         <>
             <Head>
-                <title>Proyectos web desarrollados | {process.env.webSiteName}</title>
-                <meta name="description" content={`${process.env.webSiteName} es una empresa que ha desarrollado diferentes proyectos web propios y para empresas externas, los cuales ha entregado en tiempo y forma, pero sobre todo que generan impacto empresarial.`} />
+                <title>Proyectos web desarrollados | {process.env.companyName}</title>
+                <meta name="description" content={`${process.env.companyName} es una empresa que ha desarrollado diferentes proyectos web propios y para empresas externas, los cuales ha entregado en tiempo y forma, pero sobre todo que generan impacto empresarial.`} />
                 
                 <meta name="og:type" content="WebSite" />
-                <meta name="og:title" content={`Proyectos web desarrollados | ${process.env.webSiteName}`} />
-                <meta name="og:description" content={`${process.env.webSiteName} es una empresa que ha desarrollado diferentes proyectos web propios y para empresas externas, los cuales ha entregado en tiempo y forma, pero sobre todo que generan impacto empresarial.`} />
+                <meta name="og:title" content={`Proyectos web desarrollados | ${process.env.companyName}`} />
+                <meta name="og:description" content={`${process.env.companyName} es una empresa que ha desarrollado diferentes proyectos web propios y para empresas externas, los cuales ha entregado en tiempo y forma, pero sobre todo que generan impacto empresarial.`} />
                 <meta name="og:url" content={process.env.canonicalLink} />
-                <meta name="og:site_name" content={process.env.webSiteName} />
+                <meta name="og:site_name" content={process.env.companyName} />
                 
-                <meta name="twitter:title" content={`Proyectos web desarrollados | ${process.env.webSiteName}`} />
-                <meta name="twitter:description" content={`${process.env.webSiteName} es una empresa que ha desarrollado diferentes proyectos web propios y para empresas externas, los cuales ha entregado en tiempo y forma, pero sobre todo que generan impacto empresarial.`} />
+                <meta name="twitter:title" content={`Proyectos web desarrollados | ${process.env.companyName}`} />
+                <meta name="twitter:description" content={`${process.env.companyName} es una empresa que ha desarrollado diferentes proyectos web propios y para empresas externas, los cuales ha entregado en tiempo y forma, pero sobre todo que generan impacto empresarial.`} />
                 
                 <meta name="canonical" content={process.env.canonicalLink + 'developed-projects/'} />
                 <meta name="alternate" content={process.env.canonicalLink + 'developed-projects/'} />
@@ -25,15 +25,15 @@ export default function Developed () {
 
             <div className="simple-primary-slate">
                 <h1 className="text-title content-mb-xm">Proyectos web desarrollados</h1>
-                <p className="text-description content-mb-xm">{process.env.webSiteName}: José Enrique Zempoaltecatl Moyotl</p>
-                <p className="text-content content-text-justify">Los proyectos en los que {process.env.webSiteName} ha tenido la oportunidad de participar son propios y para empresas o negocios externos, los cuales han generado impacto positivo en los usuarios finales y por ende a nuestro clientes.</p>
+                <p className="text-description content-mb-xm">{process.env.companyName}: José Enrique Zempoaltecatl Moyotl</p>
+                <p className="text-content content-text-justify">Los proyectos en los que {process.env.companyName} ha tenido la oportunidad de participar son propios y para empresas o negocios externos, los cuales han generado impacto positivo en los usuarios finales y por ende a nuestro clientes.</p>
             </div>
 
             <p className="text-subtitle-primary content-my-xb">Repositorio de proyectos</p>
 
             <div className="grid-layout-content-md">
                 <div className="simple-primary-slate content-pointer modal-activator-button" data-target="simple-modal-02">
-                    <p className="text-subtitle-primary content-text-center">Sitio web {process.env.webSiteName}</p>
+                    <p className="text-subtitle-primary content-text-center">Sitio web {process.env.companyName}</p>
                     <p className="text-description content-text-center content-mb-sm">Proyecto interno</p>
                     <p className="text-content content-text-justify content-mb-sm">Sitio web que detalle los servicios que se ofertan en la empresa, cumplir criterios usabilidad, accesibilidad y de posicionamiento en buscadores.</p>
                     <p className="text-content content-text-justify content-mb-xm"><span className="text-description">Fecha inicio:</span> 20 de Febrero, 2022.</p>
