@@ -35,8 +35,8 @@ export default function Index () {
             <div className="content-float-left"><Image src="/images/logo/image-codes-line.svg" width="160" height="160" alt={`Logo principal de ${process.env.companyName}`} title={`Logo principal de ${process.env.companyName}`}/></div>
             
             <div className="simple-primary-slate">
-                <h1 className="text-title">{process.env.companyName}</h1>
-                <p className="text-description content-mb-bg">Increíble contenido digital</p>
+                <h1 className="text-title content-mb-xm">{process.env.companyName}</h1>
+                <p className="text-description content-mb-sm">Increíble contenido digital</p>
                 <p className="text-content content-text-justify">Es una empresa con perfil digital, misma que brinda servicios de tecnologías de la información como desarrollo web para emprendedores, negocios estables, empresas pequeñas y grandes, con la finalidad de generar impacto positivo en el mundo de la tecnología.</p>
             </div>
 
