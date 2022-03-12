@@ -137,7 +137,7 @@ export default function Develop () {
                 <div className="simple-primary-slate content-text-center">
                     <h3 className="text-subtitle-secondary">Productos o servicios</h3>
                     <p className="text-description content-mt-sm">Ideal para negocios que requieren ofertar y gestionar sus productos o servicios de manera eficiente</p>
-                    <h4 className="text-primary content-my-md">$ 14,000</h4>
+                    <h4 className="text-primary content-my-md">$ 15,000</h4>
                     <p className="text-content content-mb-xm">Hasta 5 secciones</p>
                     <p className="text-content content-mb-xm">Hosting y dominio por un año</p>
                     <p className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> Visualizador de producto</p>
