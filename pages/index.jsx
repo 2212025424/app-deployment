@@ -53,6 +53,31 @@ export default function Index () {
                 </div>
             </div>
 
+            <p className="text-subtitle-primary content-my-xb">Nuestro valores</p>
+
+            <div className="grid-layout-content-md">
+                <div className="simple-primary-slate">
+                    <p className="text-description content-text-center  content-mb-sm">Con actitud positiva en la sociedad y en cada uno de los entregables solicitados por nuestros clientes</p>
+                    <p className="text-subtitle-secondary content-text-center">Responsabilidad</p>
+                </div>
+                <div className="simple-primary-slate">
+                    <p className="text-description content-text-center content-mb-sm">Lo que costeamos va de la mano con las actividades</p>
+                    <p className="text-subtitle-secondary content-text-center">Honestidad</p>
+                </div>
+                <div className="simple-primary-slate">
+                    <p className="text-description content-text-center content-mb-sm">Nos agrada aportar crecimiento con entregables</p>
+                    <p className="text-subtitle-secondary content-text-center">Pasión</p>
+                </div>
+                <div className="simple-primary-slate">
+                    <p className="text-description content-text-center content-mb-sm">Aeptamos comentarios que contruyan ideas</p>
+                    <p className="text-subtitle-secondary content-text-center">Libertad</p>
+                </div>
+                <div className="simple-primary-slate">
+                    <p className="text-description content-text-center content-mb-sm">Todas nuestras actividades con el costo necesario</p>
+                    <p className="text-subtitle-secondary content-text-center">Honestidad</p>
+                </div>
+            </div>
+            
             <p className="text-subtitle-primary content-my-xb">Información de contacto</p>
         </>
     )
