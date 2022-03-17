@@ -37,48 +37,45 @@ export default function Index () {
             <div className="simple-primary-slate">
                 <h1 className="text-title content-mb-xm">{process.env.companyName}</h1>
                 <p className="text-description content-mb-sm">Increíble contenido digital</p>
-                <p className="text-content content-text-justify">Es una empresa con perfil digital, misma que brinda servicios de tecnologías de la información como desarrollo web para emprendedores, negocios estables, empresas pequeñas y grandes, con la finalidad de generar impacto positivo en el mundo de la tecnología.</p>
+                <p className="text-content content-text-justify">{process.env.companyName} es una empresa, que brinda servicios de tecnologías de la información; desarrollo web y mantenimiento preventivo y correctivo a equipos de cómputo. Nuestros cientes son personas independientes, emprendedores, empresas chicas y grandes. La finalidad es generar impacto en el mundo de la tecnología.</p>
             </div>
 
-            <p className="text-subtitle-primary content-my-xb">Presentación inicial</p>
+            <p className="text-subtitle-primary content-my-xb">Valores de la empresa</p>
 
             <div className="grid-layout-content-md">
                 <div className="simple-primary-slate">
-                    <h3 className="text-subtitle-secondary content-mb-sm">Misión</h3>
-                    <p className="text-content content-text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ipsam. Harum dolores qui quaerat ullam dicta facilis quae, voluptatibus, numquam quos distinctio doloremque sed dignissimos, optio molestias. Quasi, odit. Minima.</p>
+                    <h3 className="text-subtitle-secondary content-text-center content-mb-md">Responsabilidad</h3>
+                    <div className="image-responsive-sm"><Image src="/images/responsibility.png" width="160" height="160" alt={`Representa el valor de responsabilidad de ${process.env.companyName}`} title={`Representa el valor de responsabilidad de ${process.env.companyName}`}/></div>
+                    <p className="text-content content-text-center content-mt-sm">Con la sociedad como con nuestros clientes. Las tareas encomendadas son entregadas en tiempo y forma.</p>
                 </div>
                 <div className="simple-primary-slate">
-                    <h3 className="text-subtitle-secondary content-mb-sm">Visión</h3>
-                    <p className="text-content content-text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi neque ipsam deleniti facere aspernatur beatae maxime? Cum libero impedit ipsa, mollitia velit dolore magnam laudantium, ea voluptas beatae autem consequatur.</p>
-                </div>
-            </div>
-
-            <p className="text-subtitle-primary content-my-xb">Nuestro valores</p>
-
-            <div className="grid-layout-content-md">
-                <div className="simple-primary-slate">
-                    <p className="text-description content-text-center  content-mb-sm">Con actitud positiva en la sociedad y en cada uno de los entregables solicitados por nuestros clientes</p>
-                    <p className="text-subtitle-secondary content-text-center">Responsabilidad</p>
+                    <h3 className="text-subtitle-secondary content-text-center content-mb-md">Honestidad</h3>
+                    <div className="image-responsive-sm"><Image src="/images/honesty.png" width="160" height="160" alt={`Representa el valor de honestidad de ${process.env.companyName}`} title={`Representa el valor de honestidad de ${process.env.companyName}`}/></div>
+                    <p className="text-content content-text-center content-mt-sm">Las actividades que solicita tienen precio equiparado con el trabajo, tiempo y esfuerzo que dedicamos.</p>
                 </div>
                 <div className="simple-primary-slate">
-                    <p className="text-description content-text-center content-mb-sm">Lo que costeamos va de la mano con las actividades</p>
-                    <p className="text-subtitle-secondary content-text-center">Honestidad</p>
+                    <h3 className="text-subtitle-secondary content-text-center content-mb-md">Dedicación</h3>
+                    <div className="image-responsive-sm"><Image src="/images/dedication.png" width="160" height="160" alt={`Representa el valor de dedicación de ${process.env.companyName}`} title={`Representa el valor de dedicación de ${process.env.companyName}`}/></div>
+                    <p className="text-content content-text-center">Trabajamos hasta en los mínimos detalles con el fin de hacer entregables que generan impacto positivo.</p>
                 </div>
                 <div className="simple-primary-slate">
-                    <p className="text-description content-text-center content-mb-sm">Nos agrada aportar crecimiento con entregables</p>
-                    <p className="text-subtitle-secondary content-text-center">Pasión</p>
+                    <h3 className="text-subtitle-secondary content-text-center content-mb-md">Libertad</h3>
+                    <div className="image-responsive-sm"><Image src="/images/freedom.png" width="160" height="160" alt={`Representa el valor de libertad de ${process.env.companyName}`} title={`Representa el valor de libertad de ${process.env.companyName}`}/></div>
+                    <p className="text-content content-text-center content-mt-sm">Contemplamos comentarios o ideas constructivas de cada uno de los integrantes en los proyectos.</p>
                 </div>
                 <div className="simple-primary-slate">
-                    <p className="text-description content-text-center content-mb-sm">Aeptamos comentarios que contruyan ideas</p>
-                    <p className="text-subtitle-secondary content-text-center">Libertad</p>
+                    <h3 className="text-subtitle-secondary content-text-center content-mb-md">Competitividad</h3>
+                    <div className="image-responsive-sm"><Image src="/images/competition.png" width="160" height="160" alt={`Representa el valor de competitividad de ${process.env.companyName}`} title={`Representa el valor de competitividad de ${process.env.companyName}`}/></div>
+                    <p className="text-content content-text-center content-mt-sm">Contemplamos su competencia directa, de esta forma lograr que nuestro entregable se posicione.</p>
                 </div>
                 <div className="simple-primary-slate">
-                    <p className="text-description content-text-center content-mb-sm">Todas nuestras actividades con el costo necesario</p>
-                    <p className="text-subtitle-secondary content-text-center">Honestidad</p>
+                    <h3 className="text-subtitle-secondary content-text-center content-mb-md">Transparencia</h3>
+                    <div className="image-responsive-sm"><Image src="/images/transparency.png" width="160" height="160" alt={`Representa el valor de transparencia de ${process.env.companyName}`} title={`Representa el valor de transparencia de ${process.env.companyName}`}/></div>
+                    <p className="text-content content-text-center content-mt-sm">Trabajamos en un marco de confianza interna y externa, así obtenemos una mejor comunicación y entregable.</p>
                 </div>
             </div>
             
-            <p className="text-subtitle-primary content-my-xb">Información de contacto</p>
+            
         </>
     )
 
