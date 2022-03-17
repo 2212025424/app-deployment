@@ -35,7 +35,7 @@ export default function Develop () {
 
             <div className="simple-primary-slate">
                 <h1 className="text-title content-mb-xm">Servicio de desarrollo web</h1>
-                <p className="text-description content-mb-xm">{process.env.companyName}: José Enrique Zempoaltecatl Moyotl</p>
+                <p className="text-description content-mb-xm">{process.env.companyName}</p>
                 <p className="text-content content-text-justify">Tener presencia en internet es clave para lograr un mayor alcance de oferta y demanda, {process.env.companyName} ofrece desarrollo web como servicio, presenta diferentes planes que bien pueden adaptarse a las necesidades para hacer crecer su perfil, negocio o empresa.</p>
             </div>
 
