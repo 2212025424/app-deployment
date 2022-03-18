@@ -53,7 +53,7 @@ body {
   height: calc(100vh - (2 * var(--space-md)));
   width: 100%;
   display: grid;
-  grid-template-rows: 60px 1fr;
+  grid-template-rows: 60px 1fr 60px;
   box-shadow: var(--general-shadow);
   background-color: var(--content-bg-color-secondary);
 }
@@ -72,9 +72,13 @@ body {
   align-items: center;
   padding-top: var(--space-sm);
   padding-bottom: var(--space-sm);
-  font-size: var(--text-md);
-  overflow: auto;
-  color: var(--content-color-light);
+}
+
+.lateral-menu-fotter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--content-bg-color-primary);
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------
@@ -173,6 +177,7 @@ body {
 --------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .wrap-social-icon {
+  position: relative;
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -184,6 +189,26 @@ body {
 
 .wrap-social-icon:hover {
   background-color: var(--content-bg-color-tertiary);
+}
+
+.wrap-social-icon-description {
+  width: 150px;
+  height: 40px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 45px;
+  border-radius: var(--rounded);
+  font-size: var(--text-md);
+  box-shadow: var(--general-shadow);
+  color: var(--on-main-app-color);
+  background-color: var(--main-app-color);
+}
+
+.wrap-social-icon:hover .wrap-social-icon-description {
+  display: flex;
+  position: absolute;
 }
 
 .social-icon {
