@@ -206,11 +206,6 @@ body {
   background-color: var(--main-app-color);
 }
 
-.wrap-social-icon:hover .wrap-social-icon-description {
-  display: flex;
-  position: absolute;
-}
-
 .social-icon {
   color: var(--content-color-dark);
   font-size: var(--text-xg);

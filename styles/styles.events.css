@@ -1,3 +1,10 @@
+@media screen and (min-width: 950px) {
+  .wrap-social-icon:hover .wrap-social-icon-description {
+    display: flex;
+    position: absolute;
+  }
+}
+
 @media screen and (max-width: 950px) {
   .wrap-template {
     grid-template-columns: 1fr 60px;
