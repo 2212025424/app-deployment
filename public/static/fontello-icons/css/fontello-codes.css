@@ -11,11 +11,14 @@
 .icon-folder:before { content: '\e809'; } /* '' */
 .icon-basket:before { content: '\e80a'; } /* '' */
 .icon-user:before { content: '\e80b'; } /* '' */
+.icon-home:before { content: '\e80c'; } /* '' */
+.icon-desktop:before { content: '\e80d'; } /* '' */
 .icon-download:before { content: '\f02e'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-resize-full-alt:before { content: '\f0b2'; } /* '' */
 .icon-menu:before { content: '\f0c9'; } /* '' */
 .icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.icon-code:before { content: '\f121'; } /* '' */
 .icon-thumbs-up-alt:before { content: '\f164'; } /* '' */
 .icon-thumbs-down-alt:before { content: '\f165'; } /* '' */
 .icon-share:before { content: '\f1e0'; } /* '' */

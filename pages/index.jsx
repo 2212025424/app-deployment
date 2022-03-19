@@ -75,7 +75,87 @@ export default function Index () {
                 </div>
             </div>
             
-            
+            <p className="text-subtitle-primary content-my-xb">Herramientas empleadas</p>
+
+            <div className="grid-layout-content-sm">
+                <div className="simple-primary-slate">
+                    <p className="text-content content-text-center content-mb-md">html</p>
+                    <div className="image-responsive-bg">
+                        <Image src="/images/logo-html.png" width="512" height="512" layout="responsive" alt="Imágen de herramienta html" title="Imágen de herramienta html"/>
+                    </div>
+                </div>
+                <div className="simple-primary-slate">
+                    <p className="text-content content-text-center content-mb-md">css</p>
+                    <div className="image-responsive-bg">
+                        <Image src="/images/logo-css-3.png" width="512" height="512" layout="responsive" alt="Imágen de herramienta css" title="Imágen de herramienta css"/>
+                    </div>
+                </div>
+                <div className="simple-primary-slate">
+                    <p className="text-content content-text-center content-mb-md">javascript</p>
+                    <div className="image-responsive-bg">
+                        <Image src="/images/logo-js.png" width="512" height="512" layout="responsive" alt="Imágen de herramienta javascript" title="Imágen de herramienta javascript"/>
+                    </div>
+                </div>
+                <div className="simple-primary-slate">
+                    <p className="text-content content-text-center content-mb-md">bootstrap</p>
+                    <div className="image-responsive-bg">
+                        <Image src="/images/logo-bootstrap.png" width="512" height="512" layout="responsive" alt="Imágen de herramienta bootstrap" title="Imágen de herramienta bootstrap"/>
+                    </div>
+                </div>
+                <div className="simple-primary-slate">
+                    <p className="text-content content-text-center content-mb-md">next.js</p>
+                    <div className="image-responsive-bg">
+                        <Image src="/images/logo-nextjs.png" width="512" height="512" layout="responsive" alt="Imágen de herramienta next js" title="Imágen de herramienta next js"/>
+                    </div>
+                </div>
+                <div className="simple-primary-slate">
+                    <p className="text-content content-text-center content-mb-md">php</p>
+                    <div className="image-responsive-bg">
+                        <Image src="/images/logo-php.png" width="512" height="512" layout="responsive" alt="Imágen de herramienta php" title="Imágen de herramienta php"/>
+                    </div>
+                </div>
+                <div className="simple-primary-slate">
+                    <p className="text-content content-text-center content-mb-md">sql</p>
+                    <div className="image-responsive-bg">
+                        <Image src="/images/logo-sql.png" width="512" height="512" layout="responsive" alt="Imágen de herramienta sql" title="Imágen de herramienta sql"/>
+                    </div>
+                </div>
+                <div className="simple-primary-slate">
+                    <p className="text-content content-text-center content-mb-md">ajax</p>
+                    <div className="image-responsive-bg">
+                        <Image src="/images/logo-ajax.png" width="512" height="512" layout="responsive" alt="Imágen de herramienta ajax" title="Imágen de herramienta ajax"/>
+                    </div>
+                </div>
+                <div className="simple-primary-slate">
+                    <p className="text-content content-text-center content-mb-md">github</p>
+                    <div className="image-responsive-bg">
+                        <Image src="/images/logo-github.png" width="512" height="512" layout="responsive" alt="Imágen de herramienta github" title="Imágen de herramienta github"/>
+                    </div>
+                </div>
+                <div className="simple-primary-slate">
+                    <p className="text-content content-text-center content-mb-md">VS Code</p>
+                    <div className="image-responsive-bg">
+                        <Image src="/images/logo-visual-studio.png" width="512" height="512" layout="responsive" alt="Imágen de herramienta visual studio code" title="Imágen de herramienta visual studio code"/>
+                    </div>
+                </div>
+            </div>
+
+            <p className="text-subtitle-primary content-my-xb">Información de contacto</p>
+
+            <div className="grid-layout-content-md">
+                <div className="simple-primary-slate">
+                    <p className="text-content content-text-justify content-mb-sm"><span className="text-description">Empresa:</span> <br/> {process.env.companyName}</p>
+                    <p className="text-content content-text-justify"><span className="text-description">Dirección:</span> <br/> San Andrés Cholula, Puebla. México</p>
+                </div>
+                <div className="simple-primary-slate">
+                    <p className="text-content content-text-justify content-mb-sm"><span className="text-description">Autor:</span> <br/> José Enrique Zempoaltecatl Moyotl</p>
+                    <p className="text-content content-text-justify"><span className="text-description">Dirección:</span> <br/> San Andrés Cholula, Puebla. México</p>
+                </div>
+                <div className="simple-primary-slate">
+                    <p className="text-content content-text-justify content-mb-sm"><span className="text-description">Número:</span> <br/> 2213401454</p>
+                    <p className="text-content content-text-justify"><span className="text-description">Correo:</span> <br/> josenriquezempo@gmail.com</p>
+                </div>
+            </div>
         </>
     )
 
