@@ -37,20 +37,6 @@ export default function LateralMenu () {
                             </div>
                         </a>
                     </Link>
-                    <Link href="/developed-projects">
-                        <a className="wrap-social-icon content-my-xm" alt="Enlace a portafolio de proyectos" title="Enlace a portafolio de proyectos">
-                            <i className="social-icon icon-folder"></i>
-                            <div className="wrap-social-icon-description">
-                                Proyectos web
-                            </div>
-                        </a>
-                    </Link>
-                    <a href="#" target="_blank" className="wrap-social-icon" alt="Enlace a linkedin" title="Enlace a linkedin">
-                        <i className="social-icon icon-link"></i>
-                        <div className="wrap-social-icon-description">
-                            Copiar enlace
-                        </div>
-                    </a>
                     <span className="wrap-social-icon dark-mode-activator content-pointer" alt="Boton para activar y desactivar modo obscuro" title="Boton para activar y desactivar modo obscuro">
                         <i className="social-icon icon-moon-inv"></i>
                         <div className="wrap-social-icon-description">

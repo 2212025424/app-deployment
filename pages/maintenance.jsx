@@ -2,12 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Modal from '../components/SimpleModal/SimpleModal'
 
-export default function Develop () {
+export default function Maintenance () {
 
     return (
         <>
             <Head>
-                <title>Desarrollo web en Puebla | {process.env.companyName}</title>
+                <title>Mantenimiento preventivo y correctivo en Puebla | {process.env.companyName}</title>
                 <meta name="description" content={`${process.env.companyName} le ofrece paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades.`} />
                 
                 <meta name="og:type" content="WebSite" />
@@ -34,12 +34,12 @@ export default function Develop () {
             </Head>
 
             <div className="simple-primary-slate">
-                <h1 className="text-title content-mb-xm">Servicio de desarrollo web</h1>
+                <h1 className="text-title content-mb-xm">Mantenimiento preventivo y correctivo</h1>
                 <p className="text-description content-mb-xm">{process.env.companyName}</p>
-                <p className="text-content content-text-justify">Tener presencia en internet es clave para lograr un mayor alcance de oferta y demanda, {process.env.companyName} ofrece desarrollo web como servicio, presenta diferentes planes que bien pueden adaptarse a las necesidades para hacer crecer su perfil, negocio o empresa.</p>
+                <p className="text-content content-text-justify">Todo equipo de cómputo requiere mantenimiento preventivo y/o correctivo por el uso que se le da, la recomendación es una vez cada 3 meses, con la finalidad de alargar el tiempo de vida útil, lograr óptimo desempeño y de esta forma incrementar su productividad.</p>
             </div>
 
-            <p className="text-subtitle-primary content-my-xb">Todos los paquetes incluyen</p>
+            <p className="text-subtitle-primary content-my-xb">Servicios de mantenimiento</p>
 
             <div className="grid-layout-content-md">
                 <div className="simple-primary-slate">
@@ -122,8 +122,8 @@ export default function Develop () {
                 <div className="simple-primary-slate content-text-center">
                     <h3 className="text-subtitle-secondary">Gestor de contenido</h3>
                     <p className="text-description content-mt-sm">Ideal para empresas o negocios que requieren modificar contenido de forma constante</p>
-                    <h4 className="text-primary content-my-md">$ 14,000</h4>
-                    <p className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> Hasta 8 secciones</p>
+                    <h4 className="text-primary content-my-md">$ 13,000</h4>
+                    <p className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> Hasta 10 secciones</p>
                     <p className="text-content content-mb-xm">Hosting y dominio por un año</p>
                     <p className="text-content content-mb-xm">Formulario de contacto</p>
                     <p className="text-content content-mb-xm">Enlace a sus redes sociales</p>
@@ -137,7 +137,7 @@ export default function Develop () {
                 <div className="simple-primary-slate content-text-center">
                     <h3 className="text-subtitle-secondary">Productos o servicios</h3>
                     <p className="text-description content-mt-sm">Ideal para negocios que requieren ofertar y gestionar sus productos o servicios de manera eficiente</p>
-                    <h4 className="text-primary content-my-md">$ 16,000</h4>
+                    <h4 className="text-primary content-my-md">$ 15,000</h4>
                     <p className="text-content content-mb-xm">Hasta 5 secciones</p>
                     <p className="text-content content-mb-xm">Hosting y dominio por un año</p>
                     <p className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> Visualizador de producto</p>
@@ -152,7 +152,7 @@ export default function Develop () {
                 <div className="simple-primary-slate content-text-center">
                     <h3 className="text-subtitle-secondary">Tienda en línea</h3>
                     <p className="text-description content-mt-sm">Ideal para negocios que requieren ofertar, gestionar y realizar ventas en linea de sus productos o servicios</p>
-                    <h4 className="text-primary content-my-md">$ 20,000</h4>
+                    <h4 className="text-primary content-my-md">$ 19,000</h4>
                     <p className="text-content content-mb-xm">Hasta 5 secciones</p>
                     <p className="text-content content-mb-xm">Hosting y dominio por un año</p>
                     <p className="text-content content-mb-xm">Gestor de novedades</p>
@@ -226,8 +226,8 @@ export default function Develop () {
             <Modal identifier="simple-modal-03">
                 <h1 className="text-title content-mb-bg">Gestor de contenido</h1>
                 <p className="text-subtitle-secondary content-mb-xm">Especificaciones del paquete:</p>
-                <li className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> 8 secciones de información</li>
-                <p className="text-description content-mb-sm content-text-justify">Se puede desarrollar un máximo de 8 secciones informativas o también llamadas páginas estáticas, por ejemplo: inicio, acerca de su empresa, contacto, blog estático, preguntas frecuentes. Usted facilita toda la información.</p>
+                <li className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> 10 secciones de información</li>
+                <p className="text-description content-mb-sm content-text-justify">Se puede desarrollar un máximo de 10 secciones informativas o también llamadas páginas estáticas, por ejemplo: inicio, acerca de su empresa, contacto, blog estático, preguntas frecuentes. Usted facilita toda la información.</p>
                 <li className="text-content content-mb-xm">Hosting y dominio</li>
                 <p className="text-description content-mb-sm content-text-justify">Para la puesta en producción de su proyecto, se requiere la renta de un dominio y hosting, mismo que requiere una <span className="text-content">renovación anual de $1,500.00 pesos</span>. Usted cuenta con este servicio el primer año al contratar este plan.</p>
                 <li className="text-content content-mb-xm">Formulario de contacto</li>
