@@ -13,7 +13,7 @@ export default function Develop () {
                 <meta name="og:type" content="WebSite" />
                 <meta name="og:title" content={`Desarrollo web en Puebla | ${process.env.companyName}`} />
                 <meta name="og:description" content={`${process.env.companyName} le ofrece paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades.`} />
-                <meta name="og:url" content={process.env.canonicalLink} />
+                <meta name="og:url" content={process.env.canonicalLink + 'web-development/'} />
                 <meta name="og:site_name" content={process.env.companyName} />
 
                 <meta name="twitter:title" content={`Desarrollo web en Puebla | ${process.env.companyName}`} />
@@ -23,14 +23,111 @@ export default function Develop () {
                 <meta name="alternate" content={process.env.canonicalLink + 'web-development/'} />
 
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+                    "@context": "http://schema.org", 
+                    "@type": "Corporation", 
+                    "url": `${process.env.canonicalLink}`, 
+                    "name": "Desarrollo de páginas web",
+                    "legalName": `Desarrollo web en Puebla | ${process.env.canonicalLink}`,
+                    "description": "Paquetes de desarrollo web que se pueden adaptar a sus necesidades.",
+                    "logo": `${process.env.canonicalLink}images/logo/logo-codes-line.jpg`,
+                    "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "bestRating": "100",
+                        "ratingCount": "24",
+                        "ratingValue": "87"
+                    },
+                    "image": `${process.env.canonicalLink}images/logo/logo-codes-line.jpg`
+                })}} />
+
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+                    "@context": "http://schema.org",
+                    "@type": "Organization",
+                    "@id": `${process.env.canonicalLink}`,
+                    "name": "Desarrollo de páginas web",
+                    "url": `${process.env.canonicalLink + 'web-development/'}`,
+                    "logo": `${process.env.canonicalLink + 'images/logo/logo-codes-line.jpg'}`,
+                    "contactPoint": {
+                        "@type": "ContactPoint",
+                        "telephone": "+52 2213401464",
+                        "url": `${process.env.canonicalLink + 'images/logo/logo-codes-line.jpg'}`,
+                        "contactType": "sales"
+                    }
+                })}} />
+
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+                    "@type":"WebSite",
+                    "@id":`${process.env.canonicalLink}`,
+                    "url":`${process.env.canonicalLink}`,
+                    "name":`${'Desarrollo web en Puebla ' + process.env.companyName}`,
+                    "description":`${process.env.companyName + ' ofrece diferentes paquetes de desarrollo web que se pueden adaptar las necesidades de perfil profesional, negocio o empresa.'}`,
+                    "inLanguage":"es",
+                    "publisher": {
+                        "@type":"Organization",
+                        "@id":`${process.env.canonicalLink}`,
+                        "name":`${process.env.canonicalLink}`,
+                        "url":`${process.env.canonicalLink}`,
+                        "sameAs":"",
+                        "name":`${'Desarrollo web en Puebla ' + process.env.companyName}`,
+                        "logo":"https://www.desarrollodepaginasweb.com.mx/wp-content/uploads/2018/07/dise%C3%B1o-de-paginas-web-para-moviles-logo-movil.jpg",
+                        "logo": {
+                            "@type":"ImageObject",
+                            "@id":"https://www.desarrollodepaginasweb.com.mx/#logo",
+                            "inLanguage":"es",
+                            "url":"https://www.desarrollodepaginasweb.com.mx/wp-content/uploads/2017/08/diseño-de-paginas-web-software-web-y-apps..png",
+                            "contentUrl":"https://www.desarrollodepaginasweb.com.mx/wp-content/uploads/2017/08/diseño-de-paginas-web-software-web-y-apps..png",
+                            "width":"420",
+                            "height":"159",
+                            "caption":"SOFTWARE WEB Y APPS"
+                        },"image": {
+                            "@type":"ImageObject",
+                            "@id":"https://www.desarrollodepaginasweb.com.mx/#logo",
+                            "inLanguage":"es",
+                            "url":"https://www.desarrollodepaginasweb.com.mx/wp-content/uploads/2017/08/diseño-de-paginas-web-software-web-y-apps..png",
+                            "contentUrl":"https://www.desarrollodepaginasweb.com.mx/wp-content/uploads/2017/08/diseño-de-paginas-web-software-web-y-apps..png",
+                            "width":"420",
+                            "height":"159",
+                            "caption":"SOFTWARE WEB Y APPS",
+                        }, "contactPoint": {
+                            "@type":"ContactPoint",
+                            "telephone":"+52 2213401464",
+                            "url":"https://www.desarrollodepaginasweb.com.mx/wp-content/uploads/2018/07/dise%C3%B1o-de-paginas-web-para-moviles-logo-movil.jpg",
+                            "contactType":"sales"
+                        }
+                    }
+                })}} />
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
                     "@context": "https://schema.org/",
-                    "@type": "WebPage",
+                    "@type": "WebSite",
                     "author": {
                         "@type": "Person",
                         "name": "José Enrique Zempoaltecatl Moyotl"
                     },
-                    "description": process.env.companyName + " le ofrece paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades."
+                    "description": process.env.companyName + " le ofrece paquetes de desarrollo de aplicaciones web que se pueden adaptar a sus necesidades.",
+                    
+
                 })}} />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </Head>
 
             <div className="simple-primary-slate">
