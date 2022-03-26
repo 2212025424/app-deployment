@@ -16,7 +16,7 @@ module.exports = withPlugins(
         },
         env: {
             canonicalLink: "https://codes-line.vercel.app/",
-            companyName: "INCODI"
+            companyName: "AppDeployment"
         }
     }
 )

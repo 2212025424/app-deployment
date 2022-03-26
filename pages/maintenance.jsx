@@ -22,13 +22,45 @@ export default function Maintenance () {
                 <meta name="alternate" content={process.env.canonicalLink + 'maintenance/'} />
 
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-                    "@context": "https://schema.org/",
-                    "@type": "WebPage",
-                    "author": {
-                        "@type": "Person",
-                        "name": "José Enrique Zempoaltecatl Moyotl"
-                    },
-                    "description": process.env.companyName + " le ofrece servicio de mantenimiento preventivo y correctivo de calidad para sus equipos de cómputo y a buen precio."
+                    "@type":"WebSite",
+                    "@id":`${process.env.canonicalLink}maintenance/`,
+                    "url":`${process.env.canonicalLink}maintenance/`,
+                    "name":`Mantenimiento preventivo y correctivo en Puebla | ${process.env.companyName}`,
+                    "description":`${process.env.companyName} le ofrece servicio de mantenimiento preventivo y correctivo de calidad para sus equipos de cómputo y a buen precio.`,
+                    "inLanguage":"es",
+                    "publisher": {
+                        "@type":"Organization",
+                        "@id":`${process.env.canonicalLink}`,
+                        "name":`${process.env.companyName}`,
+                        "url":`${process.env.canonicalLink}`,
+                        "sameAs":"https://www.linkedin.com/in/jose-enrique-zempoaltecatl-moyotl-309362230",
+                        "name":`Mantenimiento preventivo y correctivo en Puebla | ${process.env.companyName}`,
+                        "logo":`${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
+                        "logo": {
+                            "@type":"ImageObject",
+                            "@id":`${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
+                            "inLanguage":"es",
+                            "url":`${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
+                            "contentUrl":`${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
+                            "width":"250",
+                            "height":"250",
+                            "caption":`Mantenimiento preventivo y correctivo en Puebla | ${process.env.companyName}`
+                        },"image": {
+                            "@type":"ImageObject",
+                            "@id":`${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
+                            "inLanguage":"es",
+                            "url":`${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
+                            "contentUrl":`${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
+                            "width":"250",
+                            "height":"250",
+                            "caption":`Mantenimiento preventivo y correctivo en Puebla | ${process.env.companyName}`,
+                        }, "contactPoint": {
+                            "@type":"ContactPoint",
+                            "telephone":"+52 2213401464",
+                            "url":`${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
+                            "contactType":"sales"
+                        }
+                    }
                 })}} />
             </Head>
 

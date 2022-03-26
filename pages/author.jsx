@@ -6,29 +6,61 @@ export default function Author () {
     return (
         <>
             <Head>
-                <title>Tarjeta de presentación de José Enrique | {process.env.companyName}</title>
-                <meta name="description" content={`${process.env.companyName} es una empresa que ha desarrollado diferentes proyectos web propios y para empresas externas, los cuales ha entregado en tiempo y forma, pero sobre todo que genern impacto empresarial.`} />
+                <title>José Enrique Zempoaltecatl Moyotl - Desarrollador web en Puebla | {process.env.companyName}</title>
+                <meta name="description" content={`Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla.`} />
                 
                 <meta name="og:type" content="WebSite" />
-                <meta name="og:title" content={`Tarjeta de presentación de José Enrique | ${process.env.companyName}`} />
+                <meta name="og:title" content={`José Enrique Zempoaltecatl Moyotl - Desarrollador web en Puebla | ${process.env.companyName}`} />
                 <meta name="og:description" content={`Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla.`} />
-                <meta name="og:url" content={process.env.canonicalLink} />
+                <meta name="og:url" content={process.env.canonicalLink + 'author/'} />
                 <meta name="og:site_name" content={process.env.companyName} />
 
-                <meta name="twitter:title" content={`Tarjeta de presentación de José Enrique | ${process.env.companyName}`} />
+                <meta name="twitter:title" content={`José Enrique Zempoaltecatl Moyotl - Desarrollador web en Puebla | ${process.env.companyName}`} />
                 <meta name="twitter:description" content={`Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla.`} />
                 
-                <meta name="canonical" content={process.env.canonicalLink} />
-                <meta name="alternate" content={process.env.canonicalLink} />
+                <meta name="canonical" content={process.env.canonicalLink + 'author/'} />
+                <meta name="alternate" content={process.env.canonicalLink + 'author/'} />
 
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-                    "@context": "https://schema.org/",
-                    "@type": "WebPage",
-                    "author": {
-                        "@type": "Person",
-                        "name": "José Enrique Zempoaltecatl Moyotl"
-                    },
-                    "description": "Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla."
+                    "@type":"WebSite",
+                    "@id":`${process.env.canonicalLink}web-development/`,
+                    "url":`${process.env.canonicalLink}web-development/`,
+                    "name":`José Enrique Zempoaltecatl Moyotl - Desarrollador web en Puebla | ${process.env.companyName}`,
+                    "description":`Tarjeta de presentación de José Enrique Zempoaltecatl Moyotl, desarrollador de software con ingeniería en Tecnologías de la información desde el 2021 por universidad Politécnica de Puebla`,
+                    "inLanguage":"es",
+                    "publisher": {
+                        "@type":"Organization",
+                        "@id":`${process.env.canonicalLink}`,
+                        "name":`${process.env.companyName}`,
+                        "url":`${process.env.canonicalLink}`,
+                        "sameAs":"https://www.linkedin.com/in/jose-enrique-zempoaltecatl-moyotl-309362230",
+                        "name":`José Enrique Zempoaltecatl Moyotl - Desarrollador web en Puebla | ${process.env.companyName}`,
+                        "logo":`${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
+                        "logo": {
+                            "@type":"ImageObject",
+                            "@id":`${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
+                            "inLanguage":"es",
+                            "url":`${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
+                            "contentUrl":`${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
+                            "width":"250",
+                            "height":"250",
+                            "caption":`José Enrique Zempoaltecatl Moyotl - Desarrollador web en Puebla | ${process.env.companyName}`
+                        },"image": {
+                            "@type":"ImageObject",
+                            "@id":`${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
+                            "inLanguage":"es",
+                            "url":`${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
+                            "contentUrl":`${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
+                            "width":"250",
+                            "height":"250",
+                            "caption":`José Enrique Zempoaltecatl Moyotl - Desarrollador web en Puebla | ${process.env.companyName}`,
+                        }, "contactPoint": {
+                            "@type":"ContactPoint",
+                            "telephone":"+52 2213401464",
+                            "url":`${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
+                            "contactType":"sales"
+                        }
+                    }
                 })}} />
             </Head>
 
