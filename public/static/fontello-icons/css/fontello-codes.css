@@ -14,6 +14,7 @@
 .icon-home:before { content: '\e80c'; } /* '' */
 .icon-desktop:before { content: '\e80d'; } /* '' */
 .icon-download:before { content: '\f02e'; } /* '' */
+.icon-phone-squared:before { content: '\f098'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-resize-full-alt:before { content: '\f0b2'; } /* '' */
 .icon-menu:before { content: '\f0c9'; } /* '' */

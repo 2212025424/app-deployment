@@ -45,15 +45,15 @@ export default function Index () {
             <div className="grid-layout-content-md content-mt-xb">
                 <div className="simple-primary-slate">
                     <p className="text-content content-text-justify content-mb-sm"><span className="text-description">Empresa:</span> <br/> {process.env.companyName}</p>
-                    <p className="text-content content-text-justify"><span className="text-description">Dirección:</span> <br/> San Andrés Cholula, Puebla. México</p>
+                    <p className="text-content content-text-justify"><span className="text-description">correo:</span> <br/> josenriquezempo@gmail.com</p>
                 </div>
                 <div className="simple-primary-slate">
                     <p className="text-content content-text-justify content-mb-sm"><span className="text-description">Autor:</span> <br/> José Enrique Zempoaltecatl Moyotl</p>
                     <p className="text-content content-text-justify"><span className="text-description">Dirección:</span> <br/> San Andrés Cholula, Puebla. México</p>
                 </div>
                 <div className="simple-primary-slate">
-                    <p className="text-content content-text-justify content-mb-sm"><span className="text-description">Número:</span> <br/> 2213401454</p>
-                    <p className="text-content content-text-justify"><span className="text-description">Correo:</span> <br/> josenriquezempo@gmail.com</p>
+                    <p className="text-content content-text-justify content-mb-sm"><span className="text-description">Colaborador:</span> <br/> Gaddiel Rubén Rodríguez Palma</p>
+                    <p className="text-content content-text-justify"><span className="text-description">Dirección:</span> <br/> Puebla, Puebla. México</p>
                 </div>
             </div>
 

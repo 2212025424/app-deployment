@@ -167,6 +167,12 @@
       "css": "code",
       "code": 61729,
       "src": "fontawesome"
+    },
+    {
+      "uid": "ec488dfd1f548948c09671ca5a60ec92",
+      "css": "phone-squared",
+      "code": 61592,
+      "src": "fontawesome"
     }
   ]
 }

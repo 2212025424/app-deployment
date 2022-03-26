@@ -47,26 +47,19 @@ export default function () {
                     <div className="content-mb-sm"><p><i className="icon-thumbs-up"></i> Frontend: Bootstrap, Sass</p></div>
                     <div className="content-mb-sm"><p><i className="icon-thumbs-up"></i> Backend: Laravel, Next JS</p></div>
                 </div>
-                <hr className="simple-separator-sm content-mt-xb"/>
-                <div className="content-mt-sm">
-                    <a href="#" target="_blank" className="simple-button" alt="Descargar curricul vitae" title="Descargar curricul vitae">Descargar CV</a>
-                </div>
             </section>
             <section className="presentation-card-footer">
-                <a href="#" target="_blank" className="wrap-social-icon content-mx-xm" alt="Enlace a direccion de correo" title="Enlace a direccion de correo">
-                    <i className="social-icon icon-mail-alt"></i>
+                <a href="tel:+522213401464" className="wrap-social-icon content-mx-xm" alt={`Llamada directa a ${process.env.companyName}`} title={`Llamada directa a ${process.env.companyName}`}>
+                    <i className="social-icon icon-phone-squared"></i>
                 </a>
-                <a href="#" target="_blank" className="wrap-social-icon content-mx-xm" alt="Enlace a facebook" title="Enlace a facebook">
-                    <i className="social-icon icon-facebook"></i>
-                </a>
-                <a href="#" target="_blank" className="wrap-social-icon content-mx-xm" alt="Enlace a whatsapp" title="Enlace a whatsapp">
+                <a href="https://api.whatsapp.com/send?phone=+522213401464&text=Requiero%20m%C3%A1s%20informaci%C3%B3n%20de" target="_blank" className="wrap-social-icon content-mx-xm" alt="Enlace a whatsapp" title="Enlace a whatsapp">
                     <i className="social-icon icon-whatsapp"></i>
                 </a>
-                <a href="#" target="_blank" className="wrap-social-icon content-mx-xm" alt="Enlace a linkedin" title="Enlace a linkedin">
-                    <i className="social-icon icon-linkedin-squared"></i>
+                <a href="mailto:josenriquezempo@gmail.com" className="wrap-social-icon content-mx-xm" alt="Enlace a direccion de correo" title="Enlace a direccion de correo">
+                    <i className="social-icon icon-mail-alt"></i>
                 </a>
-                <a href="#" target="_blank" className="wrap-social-icon content-mx-xm" alt="Enlace a github" title="Enlace a github">
-                    <i className="social-icon icon-github-squared"></i>
+                <a href="https://www.linkedin.com/in/jose-enrique-zempoaltecatl-moyotl-309362230" target="_blank" className="wrap-social-icon content-mx-xm" alt="Enlace a linkedin" title="Enlace a linkedin">
+                    <i className="social-icon icon-linkedin-squared"></i>
                 </a>
             </section>
         </div>
