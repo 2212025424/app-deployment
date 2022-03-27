@@ -104,7 +104,7 @@ export default function DocumentLayout({ children }) {
                     }
                 })}} />
 
-                <meta name="google-site-verification" content="gzPUwKxJdQh7OpY0vihIK4GXSGHgjCy8HfyVZpeNOsg" />
+                <meta name="google-site-verification" content="zwF0PsLuRe_6HxVH_9vn0WodMNqtbAZ3Ry80_4eptWc" />
                 <script src="/static/html-events/html-events.js" />
             </Head>
             <div className="wrap-template">
