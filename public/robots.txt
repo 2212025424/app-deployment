@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://codes-line.vercel.app/sitemap.xml
+Sitemap: https://app-deployment.com/sitemap.xml

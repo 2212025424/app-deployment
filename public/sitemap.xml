@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://codes-line.vercel.app/</loc>
+        <loc>https://app-deployment.com/</loc>
         <lastmod>2022-03-24</lastmod>
     </url>
     <url>
-        <loc>https://codes-line.vercel.app/web-development/</loc>
+        <loc>https://app-deployment.com/web-development/</loc>
         <lastmod>2022-03-24</lastmod>
     </url>
     <url>
-        <loc>https://codes-line.vercel.app/developed-projects/</loc>
+        <loc>https://app-deployment.com/maintenance/</loc>
+        <lastmod>2022-03-24</lastmod>
+    </url>
+    <url>
+        <loc>https://app-deployment.com/author/</loc>
         <lastmod>2022-03-24</lastmod>
     </url>
 </urlset>
