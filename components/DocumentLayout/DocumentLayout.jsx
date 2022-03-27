@@ -63,6 +63,7 @@ export default function DocumentLayout({ children }) {
                     "name": process.env.companyName,
                     "legalName": process.env.companyName,
                     "description": process.env.companyName + ' es una empresa que brinda servicios de Tecnologías de la información en todo Puebla, cuenta con desarrollo web y mantenimiento preventivo y correctivo.',
+                    "keywords":`${process.env.companyName}, Desarrollo de software, Desarrollo de aplicaciones, Páginas web, Sitios web, Aplicaciones web, Desarrollo web, Precios de páginas web, Precios de sitios web, Planes de páginas web, Planes de sitios web, Planes de páginas web, Mantenimiento preventivo y correctivo, José Enrique Zempoaltecatl Moyotl`,
                     "image": process.env.canonicalLink + 'images/logo/image-codes-line.jpg',
                     "logo": process.env.canonicalLink + 'images/logo/image-codes-line.jpg',
                     "aggregateRating": {
@@ -71,11 +72,11 @@ export default function DocumentLayout({ children }) {
                         "ratingCount": "24",
                         "ratingValue": "87"
                     },
-                    "alumi": {
+                    "alumni": {
                         "@type": "Person",
                         "name": "José Enrique Zempoaltecatl Moyotl"
                     },
-                    "author": {
+                    "member": {
                         "@type": "Person",
                         "name": "José Enrique Zempoaltecatl Moyotl"
                     }
@@ -94,11 +95,11 @@ export default function DocumentLayout({ children }) {
                         "url": `${process.env.canonicalLink + 'images/logo/logo-codes-line.jpg'}`,
                         "contactType": "sales"
                     },
-                    "alumi": {
+                    "alumni": {
                         "@type": "Person",
                         "name": "José Enrique Zempoaltecatl Moyotl"
                     },
-                    "author": {
+                    "member": {
                         "@type": "Person",
                         "name": "José Enrique Zempoaltecatl Moyotl"
                     }
