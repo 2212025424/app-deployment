@@ -59,13 +59,13 @@ export default function DocumentLayout({ children }) {
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
                     "@context": "https://schema.org/",
                     "@type": "Corporation",
-                    "url": process.env.canonicalLink,
-                    "name": process.env.companyName,
-                    "legalName": process.env.companyName,
-                    "description": process.env.companyName + ' es una empresa que brinda servicios de Tecnologías de la información en todo Puebla, cuenta con desarrollo web y mantenimiento preventivo y correctivo.',
+                    "url": `${process.env.canonicalLink}`,
+                    "name": `${process.env.companyName}`,
+                    "legalName": `${process.env.companyName}`,
+                    "description": `${process.env.canonicalLink} es una empresa que brinda servicios de Tecnologías de la información en todo Puebla, cuenta con desarrollo web y mantenimiento preventivo y correctivo.`,
                     "keywords":`${process.env.companyName}, Desarrollo de software, Desarrollo de aplicaciones, Páginas web, Sitios web, Aplicaciones web, Desarrollo web, Precios de páginas web, Precios de sitios web, Planes de páginas web, Planes de sitios web, Planes de páginas web, Mantenimiento preventivo y correctivo, José Enrique Zempoaltecatl Moyotl`,
-                    "image": process.env.canonicalLink + 'images/logo/image-codes-line.jpg',
-                    "logo": process.env.canonicalLink + 'images/logo/image-codes-line.jpg',
+                    "image": `${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
+                    "logo": `${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
                     "aggregateRating": {
                         "@type": "AggregateRating",
                         "bestRating": "100",
@@ -85,14 +85,14 @@ export default function DocumentLayout({ children }) {
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
                     "@context": "https://schema.org/",
                     "@type": "Organization",
-                    "@id": process.env.canonicalLink,
-                    "name": process.env.companyName,
-                    "url": process.env.canonicalLink,
-                    "logo": process.env.canonicalLink + 'images/logo/image-codes-line.jpg',
+                    "@id": `${process.env.canonicalLink}`,
+                    "name": `${process.env.companyName}`,
+                    "url": `${process.env.canonicalLink}`,
+                    "logo": `${process.env.canonicalLink}images/logo/image-codes-line.jpg`,
                     "contactPoint": {
                         "@type": "ContactPoint",
                         "telephone": "+52 2213401464",
-                        "url": `${process.env.canonicalLink + 'images/logo/logo-codes-line.jpg'}`,
+                        "url": `${process.env.canonicalLink}images/logo/logo-codes-line.jpg`,
                         "contactType": "sales"
                     },
                     "alumni": {
