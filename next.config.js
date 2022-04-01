@@ -16,7 +16,7 @@ module.exports = withPlugins(
         },
         env: {
             canonicalLink: "https://www.app-deployment.com/",
-            companyName: "AppDeployment"
+            companyName: "app-deployment"
         }
     }
 )
