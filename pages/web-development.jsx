@@ -124,7 +124,7 @@ export default function Develop () {
                 <div className="simple-primary-slate content-text-center">{/*4 dias*/}
                     <h3 className="text-subtitle-secondary">Emprendedor</h3>
                     <p className="text-description content-mt-sm">Ideal cuando una empresa o negocio requiere comenzar a tener presencia en internet</p>
-                    <h4 className="text-primary content-my-md">$ 6,000</h4>
+                    <h4 className="text-primary content-my-md">$ 6,500</h4>
                     <p className="text-content content-mb-xm">1 única sección</p>
                     <p className="text-content content-mb-xm">Hosting por un año</p>
                     <p className="text-content content-mb-xm">Dominio por un año</p>
@@ -139,7 +139,7 @@ export default function Develop () {
                 <div className="simple-primary-slate content-text-center">{/*8 dias*/}
                     <h3 className="text-subtitle-secondary">Empresarial</h3>
                     <p className="text-description content-mt-sm">Ideal para dar a conocer su empresa de manera profesional y ofertar productos o servicios</p>
-                    <h4 className="text-primary content-my-md">$ 10,500</h4>
+                    <h4 className="text-primary content-my-md">$ 11,500</h4>
                     <p className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> Hasta 5 secciones</p>
                     <p className="text-content content-mb-xm">Hosting y dominio por un año</p>
                     <p className="text-content content-mb-xm"><i className="icon-thumbs-up text-content-primary"></i> Formulario de contacto</p>
@@ -184,7 +184,7 @@ export default function Develop () {
                 <div className="simple-primary-slate content-text-center">{/*30 dias*/}
                     <h3 className="text-subtitle-secondary">Tienda en línea</h3>
                     <p className="text-description content-mt-sm">Ideal para negocios que requieren ofertar, gestionar y realizar ventas en linea de sus productos o servicios</p>
-                    <h4 className="text-primary content-my-md">$ 35,500</h4>
+                    <h4 className="text-primary content-my-md">$ 36,500</h4>
                     <p className="text-content content-mb-xm">Hasta 5 secciones</p>
                     <p className="text-content content-mb-xm">Hosting y dominio por un año</p>
                     <p className="text-content content-mb-xm">Gestor de novedades</p>
